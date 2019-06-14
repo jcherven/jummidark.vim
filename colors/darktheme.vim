@@ -13,25 +13,26 @@ endif
 set t_Co=256
 let g:colors_name = "darktheme"
 
-" 256C | 256C to HEX |   HEX   |       Type
+"    HEX   |256-color| 256-Color |      Type
+"          |         |  -> HEX   |
 " --------------------------------------------------
-" 015  | #ffffff     | #ffffff | On Background
-" 254  | #e4e4e4     | #e1e1e1 | High-emphasis
-" 246  | #949494     | #949494 | Mid-emphasis
-" 240  | #585858     | #545454 | Disabled
-" 237  | #3a3a3a     | #383838 | Overlay
-" 236  | #303030     | #313131 | Overlay
-" 235  | #262626     | #2a2a2a | Overlay
-" 234  | #1c1c1c     | #1a1a1a | Surface
-" 232  | #080808     | #0c0c0c | Background
-" 000  | #000000     | #000000 | Background
-" 141  | #af87ff     | #ea80fc | Primary
-" 135  | #af5fff     | #b26eff | Primary Valiant
-" 044  | #00d7d7     | #03dac6 | Secondary
-" 168  | #d75f87     | #cf6679 | Error
-" 204  | #ff5f87     | #ff4081 | (Special & Diff Delete)
-" 113  | #87d75f     | #8bc34a | (Diff Add)
-" 227  | #ffff5f     | #ead82e | (Diff Change)
+"  #ffffff |     015 | #ffffff   | On Background
+"  #e1e1e1 |     254 | #e4e4e4   | High-emphasis
+"  #949494 |     246 | #949494   | Mid-emphasis
+"  #545454 |     240 | #585858   | Disabled
+"  #383838 |     237 | #3a3a3a   | Overlay
+"  #313131 |     236 | #303030   | Overlay
+"  #2a2a2a |     235 | #262626   | Overlay
+"  #1a1a1a |     234 | #1c1c1c   | Surface
+"  #0c0c0c |     232 | #080808   | Background
+"  #000000 |     000 | #000000   | Background
+"  #ea80fc |     141 | #af87ff   | Primary
+"  #b26eff |     135 | #af5fff   | Primary Valiant
+"  #03dac6 |     044 | #00d7d7   | Secondary
+"  #cf6679 |     168 | #d75f87   | Error
+"  #ff4081 |     204 | #ff5f87   | (Special & Diff Delete)
+"  #8bc34a |     113 | #87d75f   | (Diff Add)
+"  #ead82e |     227 | #ffff5f   | (Diff Change)
 
 " ============
 "  Primary
