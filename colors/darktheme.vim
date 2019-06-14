@@ -29,10 +29,10 @@ let g:colors_name = "darktheme"
 " 141  | #af87ff     | #ea80fc | Primary
 " 135  | #af5fff     | #b26eff | Primary Valiant
 " 044  | #00d7d7     | #03dac6 | Secondary
-" 204  | #ff5f87     | #ff4081 | (Special & Diff)
-" 113  | #87d75f     | #8bc34a | (Diff)
-" 227  | #ffff5f     | #ead82e | (Diff)
 " 168  | #d75f87     | #cf6679 | Error
+" 204  | #ff5f87     | #ff4081 | (Special & Diff Delete)
+" 113  | #87d75f     | #8bc34a | (Diff Add)
+" 227  | #ffff5f     | #ead82e | (Diff Change)
 
 " ============
 "  Primary
@@ -103,8 +103,8 @@ hi NonText ctermfg=235 ctermbg=0 cterm=NONE guifg=#2a2a2a guibg=#000000 gui=NONE
 "  Diff
 " ============
 hi DiffAdd ctermfg=148 ctermbg=235 cterm=NONE guifg=#8bc34a guibg=#2a2a2a gui=NONE
-hi DiffText ctermfg=202 ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=#ead82e guibg=#383838 gui=NONE
+hi DiffText ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
+hi DiffChange ctermfg=227 ctermbg=237 cterm=NONE guifg=#ead82e guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
 " =================
@@ -112,8 +112,8 @@ hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 hi LineNr ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 hi ColorLineNr ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
-hi StatusLine ctermfg=232 ctermbg=237 cterm=bold guifg=#545454 guibg=#0c0c0c gui=bold
-hi StatusLineNC ctermfg=232 ctermbg=237 cterm=NONE guifg=#545454 guibg=#0c0c0c gui=NONE
+hi StatusLine ctermfg=240 ctermbg=232 cterm=bold guifg=#545454 guibg=#0c0c0c gui=bold
+hi StatusLineNC ctermfg=240 ctermbg=232 cterm=NONE guifg=#545454 guibg=#0c0c0c gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
 
