@@ -6,7 +6,7 @@
 ## Screen shot
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.png?raw=true)
 
-## Dark-theme Palette
+## Dark-theme color palette
 
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/palette.png?raw=true)
 
