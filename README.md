@@ -10,6 +10,11 @@
 
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/palette.png?raw=true)
 
+## Features
+- Designed based on [dark theme color scheme principles](https://material.io/design/color/dark-theme.html#usage).
+- 256-colors terminal support
+- Neovim terminal colors support
+
 ## Installation
 ### Plug
 
