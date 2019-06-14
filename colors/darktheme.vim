@@ -119,11 +119,11 @@ hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui
 "  Select
 " =================
 hi Visual ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi StatusLine ctermfg=015 ctermbg=237 cterm=bold guifg=#FFFFFF guibg=#383838 gui=bold
-hi StatusLineNC ctermfg=015 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi SignColumn ctermfg=015 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi SpecialKey ctermfg=015 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi Cursor ctermfg=015 ctermbg=240 cterm=NONE guifg=#FFFFFF guibg=#545454 gui=NONE
+hi StatusLine ctermfg=15 ctermbg=237 cterm=bold guifg=#FFFFFF guibg=#383838 gui=bold
+hi StatusLineNC ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi Cursor ctermfg=15 ctermbg=240 cterm=NONE guifg=#FFFFFF guibg=#545454 gui=NONE
 
 " ============
 "  Underline
@@ -144,9 +144,16 @@ hi SpecialComment ctermfg=240 ctermbg=NONE cterm=NONE guifg=#545454 guibg=#2a2a2
 "  Folded and Column
 " =================
 hi Folded ctermfg=240 ctermbg=234 cterm=NONE guifg=#545454 guibg=#1a1a1a gui=NONE
-hi FoldColumn ctermfg=044 ctermbg=236 cterm=NONE guifg=#03dac6 guibg=#313131 gui=NONE
+hi FoldColumn ctermfg=44 ctermbg=236 cterm=NONE guifg=#03dac6 guibg=#313131 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#0c0c0c gui=NONE
 hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#0c0c0c gui=NONE
+
+" =================
+"  Tab
+" =================
+hi TabLine ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLineFill ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLineSel ctermfg=0 ctermbg=44 cterm=NONE guifg=#000000 guibg=#03dac6 gui=NONE
 
 " =================
 "  Menu
