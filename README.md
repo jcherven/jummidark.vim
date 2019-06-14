@@ -1,5 +1,5 @@
 # dark-theme.vim
-## What's Dark-theme
+## What's Dark-theme?
 ***A dark theme is a low-light UI that displays mostly dark surfaces.***  
 👉 https://material.io/design/color/dark-theme.html
 
