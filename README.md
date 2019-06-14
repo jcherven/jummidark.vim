@@ -10,7 +10,7 @@
 
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/palette.png?raw=true)
 
-## Install
+## Installation
 ### Plug
 
 ```
@@ -23,8 +23,13 @@ Plug 'kamykn/dark-theme.vim'
 NeoBundle 'kamykn/dark-theme.vim'
 ```
 
-## .vimrc
-Please add to your .vimrc:
+## Modify .vimrc
+Put the following two lines in your .vimrc:
 ```
+syntax enable
 colorscheme darktheme
 ```
+
+## Link
+vimcolors.com  
+https://vimcolors.com/960/darktheme/dark

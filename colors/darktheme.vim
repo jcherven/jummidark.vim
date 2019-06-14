@@ -112,6 +112,8 @@ hi DiffDelete ctermfg=196 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=#2a2a2a gu
 " =================
 hi LineNr ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 hi ColorLineNr ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
+hi StatusLine ctermfg=254 ctermbg=240 cterm=bold guifg=#e1e1e1 guibg=#2a2a2a gui=bold
+hi StatusLineNC ctermfg=254 ctermbg=240 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
 
@@ -119,8 +121,6 @@ hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui
 "  Select
 " =================
 hi Visual ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi StatusLine ctermfg=15 ctermbg=237 cterm=bold guifg=#FFFFFF guibg=#383838 gui=bold
-hi StatusLineNC ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi Cursor ctermfg=15 ctermbg=240 cterm=NONE guifg=#FFFFFF guibg=#545454 gui=NONE
