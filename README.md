@@ -1,8 +1,8 @@
 # dark-theme.vim
-## Why Dark-theme?
-Because Dark-theme is black background based design, I redesigned Vim color scheme with a modern theme.  
+## Why Dark theme?
+Because Dark theme is black background based design, I redesigned Vim color scheme with a modern theme.  
 
-[Here](https://material.io/design/color/dark-theme.html) is a style guide for the dark theme.  
+[Here](https://material.io/design/color/dark theme.html) is a style guide for the dark theme.  
 This plugin is for redesigning color scheme according to this style guide.  
 
 Dark theme 👉 https://material.io/design/color/dark-theme.html
@@ -10,12 +10,12 @@ Dark theme 👉 https://material.io/design/color/dark-theme.html
 ## Screen shot
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.png?raw=true)
 
-## Dark-theme color palette
+## Dark theme color palette
 
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/palette.png?raw=true)
 
 ## Features
-- Designed based on [dark theme color scheme principles](https://material.io/design/color/dark-theme.html#usage).
+- Designed based on [dark theme style guide](https://material.io/design/color/dark-theme.html#usage).
 - 256-colors terminal support
 - Neovim terminal colors support
 
