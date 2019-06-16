@@ -1,8 +1,8 @@
 # dark-theme.vim
-## Why Dark theme?
-Because Dark theme is black background based design, I redesigned Vim color scheme with a modern theme.  
+## Why dark theme?
+Because dark theme is black background based design, I redesigned Vim color scheme with a modern theme.  
 
-[Here](https://material.io/design/color/dark theme.html) is a style guide for the dark theme.  
+[Here](https://material.io/design/color/dark-theme.html) is a style guide for the dark theme.  
 This plugin is for redesigning color scheme according to this style guide.  
 
 Dark theme 👉 https://material.io/design/color/dark-theme.html
