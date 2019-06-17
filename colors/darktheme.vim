@@ -18,7 +18,7 @@ let g:colors_name = "darktheme"
 " --------------------------------------------------
 "  #ffffff |     015 | #ffffff   | On Background
 "  #e1e1e1 |     254 | #e4e4e4   | High-emphasis
-"  #949494 |     246 | #949494   | Mid-emphasis
+"  #a8a8a8 |     248 | #a8a8a8   | Mid-emphasis
 "  #545454 |     240 | #585858   | Disabled
 "  #383838 |     237 | #3a3a3a   | Overlay
 "  #313131 |     236 | #303030   | Overlay
@@ -89,13 +89,13 @@ hi Structure ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NO
 " =================
 " Medium-emphasis
 " =================
-hi Identifier ctermfg=246 ctermbg=NONE cterm=NONE guifg=#949494 guibg=NONE gui=NONE
-hi Function ctermfg=246 ctermbg=NONE cterm=NONE guifg=#949494 guibg=NONE gui=NONE
+hi Identifier ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
+hi Function ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
 
 " =================
 "  Background
 " =================
-hi Normal ctermfg=254 ctermbg=234 cterm=NONE guifg=#e1e1e1 guibg=#1a1a1a gui=NONE
+hi Normal ctermfg=248 ctermbg=234 cterm=NONE guifg=#a8a8a8 guibg=#1a1a1a gui=NONE
 hi NonText ctermfg=235 ctermbg=234 cterm=NONE guifg=#2a2a2a guibg=#1a1a1a gui=NONE
 
 " ============
@@ -111,8 +111,8 @@ hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 hi LineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
 hi ColorLineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
-hi StatusLine ctermfg=246 ctermbg=235 cterm=bold guifg=#949494 guibg=#2a2a2a gui=bold
-hi StatusLineNC ctermfg=246 ctermbg=235 cterm=NONE guifg=#949494 guibg=#2a2a2a gui=NONE
+hi StatusLine ctermfg=248 ctermbg=235 cterm=bold guifg=#a8a8a8 guibg=#2a2a2a gui=bold
+hi StatusLineNC ctermfg=248 ctermbg=235 cterm=NONE guifg=#a8a8a8 guibg=#2a2a2a gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
@@ -152,7 +152,7 @@ hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#0c0c0c gui=NO
 "  Tab
 " =================
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
-hi TabLine ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLine ctermfg=248 ctermbg=237 cterm=NONE guifg=#a8a8a8 guibg=#383838 gui=NONE
 hi TabLineFill ctermfg=15 ctermbg=235 cterm=NONE guifg=#FFFFFF guibg=#2a2a2a gui=NONE
 hi TabLineSel ctermfg=0 ctermbg=236 cterm=NONE guifg=#000000 guibg=#b26eff gui=NONE
 

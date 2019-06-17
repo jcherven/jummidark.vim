@@ -8,7 +8,7 @@ This plugin is for redesigning color scheme according to this style guide.
 Dark theme 👉 https://material.io/design/color/dark-theme.html
 
 ## Screen shot
-![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.jpg?raw=true)
+![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.png?raw=true)
 
 ## Dark theme color palette
 
