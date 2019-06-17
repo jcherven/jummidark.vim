@@ -80,7 +80,6 @@ hi WarningMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=N
 " =================
 " High-emphasis
 " =================
-hi Title ctermfg=254 ctermbg=NONE cterm=bold guifg=#e1e1e1 guibg=NONE gui=bold
 hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
 hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
 hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
@@ -114,8 +113,9 @@ hi LineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NON
 hi ColorLineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
 hi StatusLine ctermfg=246 ctermbg=235 cterm=bold guifg=#949494 guibg=#2a2a2a gui=bold
 hi StatusLineNC ctermfg=246 ctermbg=235 cterm=NONE guifg=#949494 guibg=#2a2a2a gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
-hi CursorColumn ctermfg=NONE ctermbg=235 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
+hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 
 " =================
 "  Select
@@ -151,6 +151,7 @@ hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#0c0c0c gui=NO
 " =================
 "  Tab
 " =================
+hi Title ctermfg=246 ctermbg=NONE cterm=bold guifg=#949494 guibg=NONE gui=bold
 hi TabLine ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi TabLineFill ctermfg=15 ctermbg=235 cterm=NONE guifg=#FFFFFF guibg=#2a2a2a gui=NONE
 hi TabLineSel ctermfg=0 ctermbg=44 cterm=NONE guifg=#000000 guibg=#03dac6 gui=NONE
