@@ -96,7 +96,7 @@ hi Function ctermfg=246 ctermbg=NONE cterm=NONE guifg=#949494 guibg=NONE gui=NON
 "  Background
 " =================
 hi Normal ctermfg=254 ctermbg=234 cterm=NONE guifg=#e1e1e1 guibg=#1a1a1a gui=NONE
-hi NonText ctermfg=235 ctermbg=0 cterm=NONE guifg=#2a2a2a guibg=#000000 gui=NONE
+hi NonText ctermfg=235 ctermbg=234 cterm=NONE guifg=#2a2a2a guibg=#1a1a1a gui=NONE
 
 " ============
 "  Diff
