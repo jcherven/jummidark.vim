@@ -10,10 +10,6 @@ Dark theme 👉 https://material.io/design/color/dark-theme.html
 ## Screen shot
 ![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.png?raw=true)
 
-## Dark theme color palette
-
-![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/palette.png?raw=true)
-
 ## Features
 - Designed based on [dark theme style guide](https://material.io/design/color/dark-theme.html#usage).
 - 256-colors terminal support
