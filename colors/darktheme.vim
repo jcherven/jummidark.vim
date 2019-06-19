@@ -167,3 +167,11 @@ hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#313131 gui=N
 "  Link
 " =================
 hi link gitcommitSummary String
+
+" =================
+"  Language part
+" =================
+"
+" # Markdown
+hi markdownHeadingDelimiter ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+
