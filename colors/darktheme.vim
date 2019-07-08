@@ -145,7 +145,7 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 "  Folded and Column
 " =================
 hi Folded ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a gui=NONE
-hi FoldColumn ctermfg=141 ctermbg=236 cterm=NONE guifg=#bb86fc guibg=#313131 gui=NONE
+hi FoldColumn ctermfg=141 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#313131 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#0c0c0c gui=NONE
 hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#0c0c0c gui=NONE
 
