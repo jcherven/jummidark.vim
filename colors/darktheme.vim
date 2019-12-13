@@ -110,7 +110,7 @@ hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 "  Line
 " =================
-hi LineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
+hi LineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
 hi ColorLineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
 hi StatusLine ctermfg=245 ctermbg=235 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
 hi StatusLineNC ctermfg=245 ctermbg=235 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
@@ -145,9 +145,9 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 "  Folded and Column
 " =================
 hi Folded ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a gui=NONE
-hi FoldColumn ctermfg=141 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#313131 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#0c0c0c gui=NONE
-hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#0c0c0c gui=NONE
+hi FoldColumn ctermfg=141 ctermbg=236 cterm=NONE guifg=#bb86fc guibg=#313131 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#2a2a2a gui=NONE
+hi VertSplit ctermfg=0 ctermbg=232 cterm=NONE guifg=#000000 guibg=#313131 gui=NONE
 
 " =================
 "  Tab
