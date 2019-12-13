@@ -21,7 +21,9 @@ let g:colors_name = "darktheme"
 "  #b2b2b2 |     249 | #b2b2b2   | Hi-Mid-emphasis
 "  #8a8a8a |     245 | #8a8a8a   | Mid-emphasis
 "  #6c6c6c |     242 | #6c6c6c   | Disabled
+"  #4e4e4e |     239 | #4e4e4e   | Overlay
 "  #383838 |     237 | #3a3a3a   | Overlay
+"  #313131 |     236 | #303030   | Overlay
 "  #2a2a2a |     235 | #262626   | Overlay
 "  #1a1a1a |     234 | #1c1c1c   | Surface
 "  #0c0c0c |     232 | #080808   | Background
@@ -102,14 +104,14 @@ hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NO
 "  Diff
 " ============
 hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
-hi DiffText ctermfg=220 ctermbg=237 cterm=NONE guifg=#FDD835 guibg=#313131 gui=NONE
+hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#313131 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
 " =================
 "  Line
 " =================
-hi LineNr ctermfg=254 ctermbg=236 cterm=NONE guifg=#e1e1e1 guibg=#313131 gui=NONE
+hi LineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
 hi StatusLine ctermfg=245 ctermbg=235 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
 hi StatusLineNC ctermfg=245 ctermbg=235 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
@@ -120,7 +122,7 @@ hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 g
 " =================
 "  Select
 " =================
-hi Visual ctermfg=NONE ctermbg=242 cterm=NONE guifg=NONE guibg=#6c6c6c gui=NONE
+hi Visual ctermfg=NONE ctermbg=239 cterm=NONE guifg=NONE guibg=#4e4e4e gui=NONE
 hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi Cursor ctermfg=15 ctermbg=249 cterm=NONE guifg=#FFFFFF guibg=#b2b2b2 gui=NONE
@@ -146,7 +148,7 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#313131 gui=NONE
 hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#bb86fc guibg=#383838 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313131 gui=NONE
-hi VertSplit ctermfg=0 ctermbg=236 cterm=NONE guifg=#000000 guibg=#313131 gui=NONE
+hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#313131 guibg=#313131 gui=NONE
 
 " =================
 "  Tab
