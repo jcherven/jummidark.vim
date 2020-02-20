@@ -1,6 +1,6 @@
 " Vim color file
 "
-" About dark-theme
+" About jummidark-theme
 " https://material.io/design/color/dark-theme.html
 
 set background=dark
@@ -11,7 +11,7 @@ if exists("syntax_on")
 endif
 
 set t_Co=256
-let g:colors_name = "darktheme"
+let g:colors_name = "jummidark"
 
 "    HEX   |256-color| 256-Color |      Type
 "          |         |  -> HEX   |
