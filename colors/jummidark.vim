@@ -31,11 +31,13 @@ let g:colors_name = "jummidark"
 "  #bb86fc |     141 | #af87ff   | Primary
 "  #b26eff |     135 | #af5fff   | Primary Valiant
 "  #00d7ff |     045 | #00d7ff   | Secondary
+"  #04dac5 |     044 | #00d7d7   | Secondary 2
 "  #cf6679 |     168 | #d75f87   | Error
 "  #ff4081 |     204 | #ff5f87   | (Special & Diff Delete)
 "  #7CB342 |     107 | #87af5f   | (Diff Add)
 "  #ffdf00 |     220 | #FDD835   | (Diff Change)
-"  #af8700 |     136 | #b1951d   | Cursor Highlight
+"  #b1951d |     136 | #af8700   | Cursor Highlight
+"  #00ffaf |     049 | #00ffaf   | Active Buffer Status Line
 
 " ============
 "  Primary
@@ -99,7 +101,7 @@ hi Delimiter ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NO
 "  Background
 " =================
 hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
-hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NONE
+hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NONE
 
 " ============
 "  Diff
@@ -107,17 +109,17 @@ hi NonText ctermfg=236 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NO
 hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
 hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#313131 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi DiffDelete ctermfg=196 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
+hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
 " =================
 "  Line
 " =================
 hi LineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
-hi StatusLine ctermfg=232 ctermbg=045 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
+hi StatusLine ctermfg=232 ctermbg=049 cterm=bold guifg=#8a8a8a guibg=#2a2a2a gui=bold
 hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#8a8a8a guibg=#2a2a2a gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi CursorLineNr ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
+hi CursorLineNr ctermfg=136 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 
 " =================
@@ -149,6 +151,7 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#313131 gui=NONE
 hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#bb86fc guibg=#383838 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313131 gui=NONE
+" VertSplit
 hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#313131 guibg=#313131 gui=NONE
 
 " =================
@@ -176,4 +179,3 @@ hi link gitcommitSummary String
 "
 " # Markdown
 hi markdownHeadingDelimiter ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
-
