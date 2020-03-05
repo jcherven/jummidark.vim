@@ -142,8 +142,8 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 " =================
 "  Disabled
 " =================
-hi Comment ctermfg=242 ctermbg=NONE cterm=italic guifg=#6c6c6c guibg=NONE gui=italic
-hi SpecialComment ctermfg=240 ctermbg=235 cterm=italic guifg=#6c6c6c guibg=#2a2a2a gui=italic
+hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a gui=NONE
 
 " =================
 "  Folded and Column
