@@ -125,7 +125,7 @@ hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 g
 " =================
 "  Select
 " =================
-hi Visual ctermfg=NONE ctermbg=239 cterm=NONE guifg=NONE guibg=#4e4e4e gui=NONE
+hi Visual ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#4e4e4e gui=NONE
 hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#0c0c0c guibg=#b1951d gui=NONE
