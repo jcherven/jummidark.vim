@@ -37,7 +37,6 @@ let g:colors_name = "jummidark"
 "  #7CB342 |     107 | #87af5f   | (Diff Add)
 "  #ffdf00 |     220 | #FDD835   | (Diff Change)
 "  #b1951d |     136 | #af8700   | Cursor Highlight
-"  #00ffaf |     049 | #00ffaf   | Active Buffer Status Line
 
 " ============
 "  Primary
@@ -116,7 +115,7 @@ hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
-hi StatusLine ctermfg=232 ctermbg=136 cterm=NONE guifg=#0c0c0c guibg=#b1951d gui=NONE
+hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#0c0c0c guibg=#b1951d gui=bold
 hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#313131 guibg=#bb86fc gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1a1a1a gui=NONE
 hi CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#b1951d guibg=#383838 gui=NONE
@@ -159,7 +158,7 @@ hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#313131 guibg=#313131 gui=
 " =================
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi TabLine ctermfg=245 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi TabLineFill ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 
 " =================
