@@ -179,3 +179,7 @@ hi link gitcommitSummary String
 "
 " # Markdown
 hi markdownHeadingDelimiter ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+
+" # HTML
+hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
