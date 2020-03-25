@@ -113,7 +113,7 @@ hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 " =================
 "  Line
 " =================
-hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#0c0c0c guibg=#b1951d gui=bold
+hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#b1951d gui=bold
 hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#313131 guibg=#bb86fc gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=NONE gui=NONE
 hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
@@ -125,10 +125,10 @@ hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 g
 " =================
 "  Select
 " =================
-hi Visual ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#4e4e4e gui=NONE
+hi Visual ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gui=NONE
 hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#0c0c0c guibg=#b1951d gui=NONE
+hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#b1951d gui=NONE
 
 " ============
 "  Underline
