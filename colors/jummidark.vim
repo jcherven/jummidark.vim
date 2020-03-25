@@ -106,7 +106,7 @@ hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NO
 "  Diff
 " ============
 hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
-hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#313131 gui=NONE
+hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#303030 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
@@ -114,12 +114,12 @@ hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui
 "  Line
 " =================
 hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#b1951d gui=bold
-hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#313131 guibg=#bb86fc gui=NONE
-hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
-hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#313131 gui=NONE
+hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#303030 guibg=#bb86fc gui=NONE
+hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313131 gui=NONE
+hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
+hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1a1a1a gui=NONE
-hi CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#b1951d guibg=#383838 gui=NONE
+hi CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#b1951d guibg=#303030 gui=NONE
 hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e1e1e1 guibg=#383838 gui=NONE
 
 " =================
@@ -148,25 +148,25 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 " =================
 "  Folded and Column
 " =================
-hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#313131 gui=NONE
+hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 gui=NONE
 hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#bb86fc guibg=#383838 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#313131 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 " VertSplit
-hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#313131 guibg=#313131 gui=NONE
+hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
 
 " =================
 "  Tab
 " =================
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi TabLine ctermfg=245 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
-hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
 hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 
 " =================
 "  Menu
 " =================
 hi Pmenu ctermfg=254 ctermbg=234 cterm=NONE guifg=#e1e1e1 guibg=#1a1a1a gui=NONE
-hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#313131 gui=NONE
+hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#303030 gui=NONE
 
 " =================
 "  Link
