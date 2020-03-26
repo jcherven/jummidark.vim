@@ -4,7 +4,7 @@ A comfortable, efficient colorscheme based on the Material dark theme guidelines
 
 Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color and truecolor.
 
-![Screenshot]()
+![Screenshot](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/jummidark-specimen.png)
 
 ## About jummidark-theme
 
