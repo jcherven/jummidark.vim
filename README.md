@@ -10,11 +10,12 @@ Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and G
 
 This fork adds:
 
-- Statusbar colors
-- Different cursor, cursorline, and number column colors
-- Different visual mode highlight color
+- Statusline colors that make it clear which split you're working in
+- Tabline, tab, and split borders that make it clear where your splits are
+- Subtle but unmistakable cursor, cursorline, and number column colors
+- Subtle but distinct visual mode highlight color
 - A more contrasty pmenu color
-- A slightly contrasted message area background
+- A slightly contrasted message/cmd area background that doesn't get confused with your buffer contents when expanded
 - Some language specific changes:
   - Color of HTML attribute values are adjusted for differentiation
 
