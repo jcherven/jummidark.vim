@@ -1,8 +1,5 @@
 " Vim color file
 "
-" About jummidark-theme
-" https://material.io/design/color/dark-theme.html
-
 set background=dark
 highlight clear
 

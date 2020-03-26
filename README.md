@@ -1,48 +1,36 @@
-# dark-theme.vim
+# jummidark.vim
 
-## Why dark theme?
+A comfortable, efficient colorscheme based on the Material dark theme guidelines. Jummidark.vim has been forked from original work by [kamykn's dark-theme.vim](https://github.com/kamykn/dark-theme)
 
-Because dark theme is black background based design, I redesigned Vim color scheme with a modern theme.
+Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color and truecolor.
 
-[Here](https://material.io/design/color/dark-theme.html) is a style guide for the dark theme.
-This plugin is for redesigning color scheme according to this style guide.
+![Screenshot]()
 
-Dark theme 👉 https://material.io/design/color/dark-theme.html
+## About jummidark-theme
 
-## Screen shot
+This fork adds:
 
-![palette](https://github.com/kamykn/dark-theme.vim/blob/master/src/screenshot.png?raw=true)
+- Statusbar colors
+- Different cursor, cursorline, and number column colors
+- Different visual mode highlight color
+- A more contrasty pmenu color
+- A slightly contrasted message area background
+- Some language specific changes:
+  - Color of HTML attribute values are adjusted for differentiation
 
-## Features
-
-- Designed based on [dark theme style guide](https://material.io/design/color/dark-theme.html#usage).
-- 256-colors terminal support
-- Neovim terminal colors support
+All changes I've made and plan to make continue to follow the [Material dark theme style guide](https://material.io/design/color/dark-theme.html).
 
 ## Installation
 
-### [vim-plug](https://github.com/junegunn/vim-plug)
+A plugin manager like [vim-plug](https://github.com/junegunn/vim-plug) is recommended. With vim plug, add the following to your plugin call:
 
 ```vimscript
-Plug 'kamykn/dark-theme.vim'
+Plug 'jcherven/jummidark.vim'
 ```
 
-### [NeoBundle](https://github.com/Shougo/neobundle.vim)
-
-```vimscript
-NeoBundle 'kamykn/dark-theme.vim'
-```
-
-## Modify .vimrc
-
-Put the following two lines in your .vimrc:
+In your ~/.vimrc or .config/nvim/init.vim, add:
 
 ```vimscript
 syntax enable
 colorscheme darktheme
 ```
-
-## Link
-
-vimcolors.com
-https://vimcolors.com/960/darktheme/dark
