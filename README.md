@@ -33,5 +33,5 @@ In your ~/.vimrc or .config/nvim/init.vim, add:
 
 ```vimscript
 syntax enable
-colorscheme darktheme
+colorscheme jummidark
 ```
