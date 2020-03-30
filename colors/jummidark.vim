@@ -32,7 +32,7 @@ let g:colors_name = "jummidark"
 "  #cf6679 |     168 | #d75f87   | Error
 "  #ff4081 |     204 | #ff5f87   | (Special & Diff Delete)
 "  #7CB342 |     107 | #87af5f   | (Diff Add)
-"  #ffdf00 |     220 | #FDD835   | (Diff Change)
+"  #ffdf00 |     220 | #fdd700   | (Diff Change)
 "  #b1951d |     136 | #af8700   | Cursor Highlight
 
 " ============
@@ -97,13 +97,13 @@ hi Delimiter ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NO
 "  Background
 " =================
 hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
-hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#313131 guibg=#2a2a2a gui=NONE
+hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#4e4e4e guibg=#2a2a2a gui=NONE
 
 " ============
 "  Diff
 " ============
 hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
-hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#FDD835 guibg=#303030 gui=NONE
+hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#fdd700 guibg=#303030 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
 
@@ -155,7 +155,7 @@ hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=
 "  Tab
 " =================
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
-hi TabLine ctermfg=245 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi TabLine ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
 hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
 hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui=NONE
 
@@ -178,5 +178,5 @@ hi link gitcommitSummary String
 hi markdownHeadingDelimiter ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 
 " # HTML
-hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
