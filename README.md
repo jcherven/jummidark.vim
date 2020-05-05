@@ -6,7 +6,7 @@ Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and G
 
 ![Screenshot](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/jummidark-specimen.png)
 
-## About jummidark-theme
+## About jummidark.vim
 
 This fork adds:
 
@@ -17,7 +17,7 @@ This fork adds:
 - A more contrasty pmenu color
 - A slightly contrasted message/cmd area background that doesn't get confused with your buffer contents when expanded
 - Some language specific changes:
-  - Color of HTML attribute values are adjusted for differentiation
+  - Color of HTML and JSX attribute values are adjusted for differentiation
 
 All changes I've made and plan to make continue to follow the [Material dark theme style guide](https://material.io/design/color/dark-theme.html).
 
