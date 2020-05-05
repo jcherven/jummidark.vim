@@ -1,16 +1,18 @@
 # jummidark.vim
 
+![Screenshot: React code in NeoVim with NerdTree, gcmt/taboo.vim, and the native statusline](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/jummidark-specimen.png)
+
 A comfortable, efficient colorscheme based on the Material dark theme guidelines. Jummidark.vim has been forked from original work by [kamykn's dark-theme.vim](https://github.com/kamykn/dark-theme)
 
-Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color and truecolor.
+A preview of the general syntax highlighting can be seen in the [vimcolors.com specimen](https://vimcolors.com/1205/jummidark/dark).
 
-![Screenshot](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/jummidark-specimen.png)
+Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color and truecolor.
 
 ## About jummidark.vim
 
 This fork adds:
 
-- Statusline colors that make it clear which split you're working in
+- Native statusbar colors for users who don't use plugins like Airline, Powerline, etc.
 - Tabline, tab, and split borders that make it clear where your splits are
 - Subtle but unmistakable cursor, cursorline, and number column colors
 - Subtle but distinct visual mode highlight color
