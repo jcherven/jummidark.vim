@@ -10,7 +10,7 @@ endif
 set t_Co=256
 let g:colors_name = "jummidark"
 
-"    HEX   |256-color| 256-Color |      Type
+"    HEX   |256-color| 256-Color | Material Type
 "          |         |  -> HEX   |
 " --------------------------------------------------
 "  #ffffff |     015 | #ffffff   | On Background
@@ -162,7 +162,7 @@ hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui
 " =================
 "  Menu
 " =================
-hi Pmenu ctermfg=254 ctermbg=234 cterm=NONE guifg=#e1e1e1 guibg=#1a1a1a gui=NONE
+hi Pmenu ctermfg=245 ctermbg=234 cterm=NONE guifg=#8a8a8a guibg=#1a1a1a gui=NONE
 hi PmenuSel ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#303030 gui=NONE
 
 " =================
