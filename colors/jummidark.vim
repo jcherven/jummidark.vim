@@ -68,8 +68,8 @@ hi Special ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi SpecialChar ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi Todo ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
-hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
-hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=#ff4081 guibg=#383838 gui=NONE
+hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 
 " ============
 "  Error
