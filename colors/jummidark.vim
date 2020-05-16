@@ -69,7 +69,7 @@ hi SpecialChar ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff4081 guibg=NONE gui=NONE
 hi Todo ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
-hi IncSearch ctermfg=204 ctermbg=237 cterm=NONE guifg=#ff4081 guibg=#383838 gui=NONE
+hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=#ff4081 guibg=#383838 gui=NONE
 
 " ============
 "  Error
