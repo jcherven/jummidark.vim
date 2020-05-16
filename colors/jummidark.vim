@@ -162,8 +162,8 @@ hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e1e1e1 guibg=#2a2a2a gui
 " =================
 "  Menu
 " =================
-hi PmenuSel ctermfg=245 ctermbg=234 cterm=NONE guifg=#8a8a8a guibg=#1a1a1a gui=NONE
-hi Pmenu ctermfg=135 ctermbg=236 cterm=NONE guifg=#b26eff guibg=#303030 gui=NONE
+hi PmenuSel ctermfg=135 ctermbg=234 cterm=NONE guifg=#b26eff guibg=#1a1a1a gui=NONE
+hi Pmenu ctermfg=235 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
 
 " =================
 "  Link
