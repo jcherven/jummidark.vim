@@ -171,6 +171,11 @@ hi Pmenu ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
 hi link gitcommitSummary String
 
 " =================
+"  CoC
+" =================
+hi link CocCodeLens Comment
+
+" =================
 "  Language part
 " =================
 "
