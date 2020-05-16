@@ -31,7 +31,6 @@ let g:colors_name = "jummidark"
 "  #04dac5 |     044 | #00d7d7   | Secondary 2
 "  #cf6679 |     168 | #d75f87   | Error
 "  #ff4081 |     204 | #ff5f87   | (Special & Diff Delete)
-"  #7CB342 |     107 | #87af5f   | (Diff Add) (Deprecated)
 "  #ffdf00 |     220 | #fdd700   | (Diff Change)
 "  #b1951d |     136 | #af8700   | Cursor Highlight
 
@@ -148,7 +147,6 @@ hi SpecialComment ctermfg=240 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#2a2a2a
 hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 gui=NONE
 hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#bb86fc guibg=#383838 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
-" VertSplit
 hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
 
 " =================
