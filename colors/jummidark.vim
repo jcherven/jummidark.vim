@@ -1,5 +1,5 @@
 " Vim color file
-"
+" {{{
 set background=dark
 highlight clear
 
@@ -9,7 +9,7 @@ endif
 
 set t_Co=256
 let g:colors_name = "jummidark"
-
+"}}}
 "    HEX   |256-color| 256-Color | Material Type
 "          |         |  -> HEX   |
 " --------------------------------------------------
@@ -36,7 +36,7 @@ let g:colors_name = "jummidark"
 "  #b1951d |     136 | #af8700   | Cursor Highlight
 
 " ============
-"  Primary
+"  Primary    {{{
 " ============
 hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
@@ -68,7 +68,7 @@ hi Special ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi SpecialChar ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi MatchParen ctermfg=204 ctermbg=NONE cterm=underline guifg=#ff4081 guibg=NONE gui=underline
 hi Todo ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
-hi Search ctermfg=204 ctermbg=NONE cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
+hi Search ctermfg=204 ctermbg=237 cterm=NONE guifg=#ff4081 guibg=NONE gui=NONE
 hi IncSearch ctermfg=204 ctermbg=237 cterm=NONE guifg=#ff4081 guibg=#383838 gui=NONE
 
 " ============
@@ -182,3 +182,4 @@ hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 " # Javascript React (jsx)
 hi jsxString ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+"}}}
