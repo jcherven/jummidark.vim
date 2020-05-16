@@ -31,7 +31,7 @@ let g:colors_name = "jummidark"
 "  #04dac5 |     044 | #00d7d7   | Secondary 2
 "  #cf6679 |     168 | #d75f87   | Error
 "  #ff4081 |     204 | #ff5f87   | (Special & Diff Delete)
-"  #7CB342 |     107 | #87af5f   | (Diff Add)
+"  #7CB342 |     107 | #87af5f   | (Diff Add) (Deprecated)
 "  #ffdf00 |     220 | #fdd700   | (Diff Change)
 "  #b1951d |     136 | #af8700   | Cursor Highlight
 
@@ -102,7 +102,7 @@ hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#4e4e4e guibg=#2a2a2a gui=NO
 " ============
 "  Diff
 " ============
-hi DiffAdd ctermfg=107 ctermbg=235 cterm=NONE guifg=#7CB342 guibg=#2a2a2a gui=NONE
+hi DiffAdd ctermfg=044 ctermbg=235 cterm=NONE guifg=#00d7d7 guibg=#2a2a2a gui=NONE
 hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#fdd700 guibg=#303030 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=204 ctermbg=235 cterm=NONE guifg=#ff4081 guibg=#2a2a2a gui=NONE
