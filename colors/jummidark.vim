@@ -35,17 +35,17 @@ let g:colors_name = "jummidark"
 "  #b1951d   |     136 | #af8700   | Cursor
 
 " Highlight Assignments {{{
-hi def highPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
-hi link Type              highPurple
-hi link Keyword           highPurple
-hi link String            highPurple
-hi link Character         highPurple
-hi link Define            highPurple
-hi link StorageClass      highPurple
-hi link Directory         highPurple
+hi HighPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi link Type              HighPurple
+hi link Keyword           HighPurple
+hi link String            HighPurple
+hi link Character         HighPurple
+hi link Define            HighPurple
+hi link StorageClass      HighPurple
+hi link Directory         HighPurple
 
-hi def lowPurple ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
-hi link tag lowPurple
+hi LowPurple ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
+hi link Tag LowPurple
 
 "  Secondary
 hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
