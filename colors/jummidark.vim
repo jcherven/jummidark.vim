@@ -38,13 +38,12 @@ let g:colors_name = "jummidark"
 "  highPurple    
 hi highPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
 hi link Type highPurple
-" hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi Define ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
-hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+hi link Keyword highPurple
+hi link String highPurple
+hi link Character highPurple
+hi link Define highPurple
+hi link StorageClass highPurple
+hi link Directory highPurple
 
 "  Primary Variant
 hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
