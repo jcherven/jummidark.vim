@@ -35,17 +35,18 @@ let g:colors_name = "jummidark"
 "  #b1951d   |     136 | #af8700   | Cursor
 
 " Highlight Assignments {{{
-hi HighPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
-hi link Type              HighPurple
-hi link Keyword           HighPurple
-hi link String            HighPurple
-hi link Character         HighPurple
-hi link Define            HighPurple
-hi link StorageClass      HighPurple
-hi link Directory         HighPurple
+" highPurple
+hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi Define ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
 
+" lowPurple
 hi LowPurple ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
-hi link Tag LowPurple
+hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
 
 "  Secondary
 hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
