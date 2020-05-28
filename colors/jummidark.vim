@@ -26,17 +26,19 @@ let g:colors_name = "jummidark"
 "  #0c0c0c   |     232 | #080808   | Background
 "  #000000   |     000 | #000000   | Background
 "  #bb86fc   |     141 | #af87ff   | Primary
-"  #b26eff   |     135 | #af5fff   | Primary Valiant
+"  #b26eff   |     135 | #af5fff   | Primary Variant
 "  #00d7ff   |     045 | #00d7ff   | Secondary
 "  #04dac5   |     044 | #00d7d7   | Secondary 2
 "  #cf6679   |     168 | #d75f87   | Error
-"  #ff4081   |     204 | #ff5f87   | (Special & Diff Delete)
-"  #ffdf00   |     220 | #fdd700   | (Diff Change)
-"  #b1951d   |     136 | #af8700   | Cursor Highlight
+"  #ff4081   |     204 | #ff5f87   | Error (Special)
+"  #ffdf00   |     220 | #fdd700   | Diff Change
+"  #b1951d   |     136 | #af8700   | Cursor
 
 " Highlight Assignments {{{
-"  Primary    
-hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
+"  highPurple    
+hi highPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
+hi link Type highPurple
+" hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
@@ -44,7 +46,7 @@ hi Define ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#bb86fc guibg=NONE gui=NONE
 
-"  Primary Valiant
+"  Primary Variant
 hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
 
 "  Secondary
@@ -64,8 +66,8 @@ hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 
 "  Error
-hi ErrorMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
-hi WarningMsg ctermfg=0 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
+hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
+hi WarningMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#cf6679 gui=NONE
 
 " High-emphasis
 hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e1e1e1 guibg=NONE gui=NONE
