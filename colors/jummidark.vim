@@ -25,8 +25,8 @@ let g:colors_name = "jummidark"
 "  #1a1a1a   |     234 | #1c1c1c   | Surface
 "  #0c0c0c   |     232 | #080808   | Background
 "  #000000   |     000 | #000000   | Background
-"  #bb86fc   |     141 | #af87ff   | Primary
-"  #b26eff   |     135 | #af5fff   | Primary Variant
+"  #bb86fc   |     141 | #af87ff   | highPurple
+"  #b26eff   |     135 | #af5fff   | lowPurple
 "  #00d7ff   |     045 | #00d7ff   | Secondary
 "  #04dac5   |     044 | #00d7d7   | Secondary 2
 "  #cf6679   |     168 | #d75f87   | Error
@@ -35,18 +35,17 @@ let g:colors_name = "jummidark"
 "  #b1951d   |     136 | #af8700   | Cursor
 
 " Highlight Assignments {{{
-"  highPurple    
 hi highPurple ctermfg=141 ctermbg=NONE cterm=NONE guifg=bb86fc guibg=NONE gui=NONE
-hi link Type highPurple
-hi link Keyword highPurple
-hi link String highPurple
-hi link Character highPurple
-hi link Define highPurple
-hi link StorageClass highPurple
-hi link Directory highPurple
+hi link Type              highPurple
+hi link Keyword           highPurple
+hi link String            highPurple
+hi link Character         highPurple
+hi link Define            highPurple
+hi link StorageClass      highPurple
+hi link Directory         highPurple
 
-"  Primary Variant
-hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
+hi lowPurple ctermfg=135 ctermbg=NONE cterm=NONE guifg=#b26eff guibg=NONE gui=NONE
+hi link tag lowPurple
 
 "  Secondary
 hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#04dac5 guibg=NONE gui=NONE
