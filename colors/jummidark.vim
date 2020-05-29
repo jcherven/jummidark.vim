@@ -36,19 +36,21 @@ let g:colors_name = "jummidark"
 hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
 
 " Named Color Assignments {{{
-" highPurple
-hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+" #af87ff 141 highPurple
 hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 hi Define ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 
-" lowPurple
+" #af5fff 135 lowPurple
+hi Type ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi Directory ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
-"  highGreen
+" #00ffaf 049 highGreen
+"
+" #00d7d7 044 lowGreen
 hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 hi Label ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 hi Conditional ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
@@ -56,44 +58,49 @@ hi Statement ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NON
 hi Operator ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 hi Question ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 
-"  highRed
-hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
-hi WarningMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
+" #d75f87 168 highRed  
 
-"  lowRed
+" #d7005f 161 lowRed 
 hi Special ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 hi SpecialChar ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 hi MatchParen ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 hi Todo ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 
-" highGray1
+" #e4e4e4 254 highGray1
 hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
 hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
 hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
 hi Constant ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
 hi Structure ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
 
-" highGray3
+" #8a8a8a 245 highGray3 
 hi Identifier ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 hi Function ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 hi Delimiter ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 
-"  middleGray1
-hi SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626 gui=NONE
+" #6c6c6c 242 middleGray1
 
-"  middleGray2
+" #4e4e4e 239 middleGray2
 hi Comment ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
 hi NonText ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
 
-" middleGray3
+" #3a3a3a 237 middleGray3 
 
-" Black
+" #1c1c1c 234 lowGray3
+
 " }}}
 
 " Special Highlight Assignments {{{
+" Error/Warning
+hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
+hi WarningMsg ctermfg=000 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00ffaf gui=NONE
+
 " Search Highlight
 hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+
+" Special Comment
+hi SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626 gui=NONE
 
 "  Diff
 hi DiffAdd ctermfg=044 ctermbg=235 cterm=NONE guifg=#00d7d7 guibg=#262626 gui=NONE
