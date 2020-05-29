@@ -10,30 +10,32 @@ set t_Co=256
 let g:colors_name = "jummidark"
 "}}}
 
-" GUI-safe   |256-color|Equivalent | Highlight
-" hex value  |value    |hex value  | Name
-" --------------------------------------------------
-"  #e4e4e4   |     254 | #e4e4e4   | highGray
-"  #b2b2b2   |     249 | #b2b2b2   | middleGray1
-"  #8a8a8a   |     245 | #8a8a8a   | middleGray2
-"  #6c6c6c   |     242 | #6c6c6c   | lowGray
-"  #4e4e4e   |     239 | #4e4e4e   | Overlay
-"  #383838   |     237 | #3a3a3a   | Overlay
-"  #303030   |     236 | #303030   | Overlay
-"  #262626   |     235 | #262626   | Overlay
-"  #1c1c1c   |     234 | #1c1c1c   | Surface
-"  #0c0c0c   |     232 | #080808   | Background
-"  #000000   |     000 | #000000   | Background
-"  #af87ff   |     141 | #af87ff   | highPurple
-"  #af5fff   |     135 | #af5fff   | lowPurple
-"  #00ffaf   |     049 | #00ffaf   | highGreen
-"  #00d7d7   |     044 | #00d7d7   | lowGreen
-"  #d75f87   |     168 | #d75f87   | highRed
-"  #d7005f   |     161 | #d7005f   | lowRed
-"  #ffdf00   |     220 | #ffd700   | Diff Change
-"  #af8700   |     136 | #af8700   | Cursor
+" 256  | GUI hex   | Highlight    |Jummidark
+" value| value     | Name         |Term NR-16
+" --------------------------------------------
+"  254 | #e4e4e4   | highGray1    | 7 LightGray, foreground
+"  249 | #b2b2b2   | highGray2    |
+"  245 | #8a8a8a   | highGray3    | 15 White
+"  242 | #6c6c6c   | middleGray1  |
+"  239 | #4e4e4e   | middleGray2  | 8 DarkGray, selection
+"  237 | #3a3a3a   | middleGray3  |
+"  236 | #303030   | lowGray1     |
+"  235 | #262626   | lowGray2     | background
+"  234 | #1c1c1c   | lowGray3     | 0 black
+"  232 | #080808   | Background   |
+"  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
+"  135 | #af5fff   | lowPurple    | 1 DarkBlue
+"  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
+"  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
+"  168 | #d75f87   | highRed      | 12 Red
+"  161 | #d7005f   | lowRed       | 4 DarkRed
+"  220 | #ffd700   | Diff Change  |
+"  136 | #af8700   | Cursor       | cursor
 
-" Highlight Assignments {{{
+" Normal text and Vim background Assignment
+hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
+
+" Named Color Assignments {{{
 " highPurple
 hi Type ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
@@ -44,7 +46,6 @@ hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui
 hi Directory ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
 
 " lowPurple
-hi LowPurple ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 "  highGreen
@@ -77,13 +78,16 @@ hi Identifier ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=N
 hi Function ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
 hi Delimiter ctermfg=249 ctermbg=NONE cterm=NONE guifg=#b2b2b2 guibg=NONE gui=NONE
 
-"  Background
-hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
-hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#4e4e4e guibg=#262626 gui=NONE
-
 "  lowGray
 hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
 hi SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626 gui=NONE
+
+"  lowGray
+hi NonText ctermfg=239 ctermbg=235 cterm=NONE guifg=#4e4e4e guibg=#262626 gui=NONE
+" }}}
+
+" Special Highlight Assignments {{{
+" Search Highlight
 hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
 
@@ -138,8 +142,9 @@ hi link gitcommitSummary String
 
 "  CoC
 hi link CocCodeLens Comment
+" }}}
 
-"  Language Specific
+"  Language Specific Assignments {{{
 " # Markdown
 hi markdownHeadingDelimiter ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 " # HTML
