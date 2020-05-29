@@ -59,6 +59,7 @@ hi Operator ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 hi Question ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
 
 " #d75f87 168 highRed  
+hi Debug ctermfg=168 ctermbg=NONE cterm=NONE guifg=#d75f87 guibg=NONE gui=NONE
 
 " #d7005f 161 lowRed 
 hi Special ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
