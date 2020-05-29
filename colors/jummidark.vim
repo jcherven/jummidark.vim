@@ -10,10 +10,9 @@ set t_Co=256
 let g:colors_name = "jummidark"
 "}}}
 
-" GUI-safe   |256-color|Equivalent | Material Type
-" hex value  |value    |hex value  |
+" GUI-safe   |256-color|Equivalent | Highlight
+" hex value  |value    |hex value  | Name
 " --------------------------------------------------
-"  #ffffff   |     015 | #ffffff   | On Background
 "  #e4e4e4   |     254 | #e4e4e4   | highGray
 "  #b2b2b2   |     249 | #b2b2b2   | middleGray1
 "  #8a8a8a   |     245 | #8a8a8a   | middleGray2
@@ -22,15 +21,15 @@ let g:colors_name = "jummidark"
 "  #383838   |     237 | #3a3a3a   | Overlay
 "  #303030   |     236 | #303030   | Overlay
 "  #262626   |     235 | #262626   | Overlay
-"  #1a1a1a   |     234 | #1c1c1c   | Surface
+"  #1c1c1c   |     234 | #1c1c1c   | Surface
 "  #0c0c0c   |     232 | #080808   | Background
 "  #000000   |     000 | #000000   | Background
 "  #af87ff   |     141 | #af87ff   | highPurple
 "  #af5fff   |     135 | #af5fff   | lowPurple
-"  #00d7d7   |     044 | #00d7d7   | highGreen
-"  #00af87   |     036 | #00af87   | lowGreen
-"  #d7005f   |     161 | #d7005f   | lowRed
+"  #00ffaf   |     049 | #00ffaf   | highGreen
+"  #00d7d7   |     044 | #00d7d7   | lowGreen
 "  #d75f87   |     168 | #d75f87   | highRed
+"  #d7005f   |     161 | #d7005f   | lowRed
 "  #ffdf00   |     220 | #ffd700   | Diff Change
 "  #af8700   |     136 | #af8700   | Cursor
 
@@ -100,7 +99,7 @@ hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#303030 guibg=#af87ff g
 hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1a1a1a gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
 hi CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#af8700 guibg=#303030 gui=NONE
 hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
 
@@ -131,7 +130,7 @@ hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui
 hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
 
 "  Menu
-hi PmenuSel ctermfg=135 ctermbg=234 cterm=NONE guifg=#af5fff guibg=#1a1a1a gui=NONE
+hi PmenuSel ctermfg=135 ctermbg=234 cterm=NONE guifg=#af5fff guibg=#1c1c1c gui=NONE
 hi Pmenu ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
 
 "  Link
