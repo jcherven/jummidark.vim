@@ -46,7 +46,7 @@ hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui
 hi Type ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Directory ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
-hi String ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+hi String ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 " #00ffaf 049 highGreen
 "
