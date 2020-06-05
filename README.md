@@ -1,8 +1,8 @@
 # jummidark.vim
 
-A comfortable, efficient colorscheme based on the Material dark theme guidelines. Jummidark.vim has been forked from original work by [kamykn's dark-theme.vim](https://github.com/kamykn/dark-theme.vim)
+A comfortable, efficient colorscheme. Jummidark.vim has been forked from original work by [kamykn's dark-theme.vim](https://github.com/kamykn/dark-theme.vim)
 
-Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color and truecolor.
+Thanks to the original work, this colorscheme is efficient in Vim, Neovim, and GUI variants. It supports 256-color terminals in addition to all the fancy ones.
 
 Shown here: NeoVim with NerdTree, gcmt/taboo.vim, and the native statusline; React code in 14pt Iosevka Term.
 ![Screenshot](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/jummidark-specimen.png)
@@ -21,8 +21,6 @@ This fork adds:
 - Visually distinguished message/cmd area background
 - Language specific changes:
   - Highlighting of HTML and JSX attribute values are adjusted for differentiation
-
-All changes I've made and plan to make continue to follow the [Material dark theme style guide](https://material.io/design/color/dark-theme.html).
 
 ## Installation
 
