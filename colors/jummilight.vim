@@ -28,13 +28,13 @@ let g:colors_name = "jummilight"
 "|  093 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "|  044 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "|  030 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
-"|  161 | #d7005f   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
-"|  168 | #d75f87   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
+"|  168 | #d75f87   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
+"|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
 "|  220 | #ffd700   | Diff Change  |              ||  220 | #ffd700   | Diff Change  |
 "|  136 | #af8700   | Cursor       |              ||  136 | #af8700   | Cursor       | cursor
 
 " Normal text and Vim background Assignment
-hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
+hi Normal ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
 
 " Named Color Assignments {{{
 " #af87ff 141 highPurple
