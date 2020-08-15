@@ -15,8 +15,9 @@ let g:colors_name = "jummilight"
 "| value| value     | Name         |              || value| value     | Name         |Term NR-16
 "|---------------------------------| -----------------------------------------------------
 "|  254 | #e4e4e4   | highGray1    | background   ||  254 | #e4e4e4   | highGray1    | 7 LightGray, foreground
-"|  249 | #b2b2b2   | highGray2    |              ||  249 | #b2b2b2   | highGray2    |
-"|  245 | #8a8a8a   | highGray3    | selection    ||  245 | #8a8a8a   | highGray3    | 15 White
+"|  252 | #d0d0d0   | highGray2    |               |  252 | #d0d0d0   | highGray2    |
+"|  249 | #b2b2b2   | highGray3    |              ||  249 | #b2b2b2   | highGray3    |
+"|  245 | #8a8a8a   | highGray4    | selection    ||  245 | #8a8a8a   | highGray4    | 15 White
 "|  242 | #6c6c6c   | middleGray1  |              ||  242 | #6c6c6c   | middleGray1  |
 "|  239 | #4e4e4e   | middleGray2  |              ||  239 | #4e4e4e   | middleGray2  | 8 DarkGray, selection
 "|  237 | #3a3a3a   | middleGray3  |              ||  237 | #3a3a3a   | middleGray3  |
@@ -27,7 +28,7 @@ let g:colors_name = "jummilight"
 "|  135 | #af5fff   | highPurple   |              ||  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
 "|  093 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "|  044 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
-"|  030 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
+"|   30 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
 "|  168 | #d75f87   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
 "|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
 "|  220 | #ffd700   | Diff Change  |              ||  220 | #ffd700   | Diff Change  |
@@ -37,7 +38,6 @@ let g:colors_name = "jummilight"
 hi Normal ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
 
 " Named Color Assignments {{{
-" TODO change this to 135 af5fff
 " #af5fff 135 highPurple
 hi Keyword ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Character ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
@@ -45,17 +45,14 @@ hi StorageClass ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui
 hi Structure ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 hi Operator ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
-" TODO change this to 093 8700ff
 " #8700ff 093 lowPurple
 hi Type ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 hi Directory ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 hi Tag ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 hi String ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 
-" TODO change this to 044 00d7d7
 " #00d7d7 044 highGreen
 "
-" TODO change this to 030 008787
 " #008787 030 lowGreen
 hi Define ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
 hi PreProc ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
@@ -74,10 +71,10 @@ hi MatchParen ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=N
 hi Todo ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 
 " #e4e4e4 254 highGray1
-hi Boolean ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Float ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Number ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Constant ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
+hi Boolean ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
+hi Float ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
+hi Number ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
+hi Constant ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
 
 " #8a8a8a 245 highGray3 
 hi Identifier ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
@@ -87,8 +84,8 @@ hi Delimiter ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NO
 " #6c6c6c 242 middleGray1
 
 " #4e4e4e 239 middleGray2
-hi Comment ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
-hi NonText ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
+hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+hi NonText ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
 
 " #3a3a3a 237 middleGray3 
 
@@ -99,37 +96,34 @@ hi NonText ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
 " Special Highlight Assignments {{{
 " Error/Warning
 hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
-" TODO change this to 044 00d7d7
-hi WarningMsg ctermfg=044 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00d7d7 gui=NONE
+hi WarningMsg ctermfg=000 ctermbg=44 cterm=NONE guifg=#000000 guibg=#00d7d7 gui=NONE
 
 " Search Highlight
-hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
-hi IncSearch ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+hi Search ctermfg=NONE ctermbg=245 cterm=NONE guifg=NONE guibg=#8a8a8a gui=NONE
+hi IncSearch ctermfg=NONE ctermbg=242 cterm=NONE guifg=NONE guibg=#6c6c6c gui=NONE
 
 " Special Comment
-hi SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626 gui=NONE
+hi SpecialComment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
 
 "  Diff
-" TODO change this to 030 008787
-hi DiffAdd ctermfg=030 ctermbg=235 cterm=NONE guifg=#008787 guibg=#262626 gui=NONE
-hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#ffd700 guibg=#303030 gui=NONE
-hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi DiffDelete ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 gui=NONE
+hi DiffAdd ctermfg=30 ctermbg=252 cterm=NONE guifg=#008787 guibg=#d0d0d0 gui=NONE
+hi DiffText ctermfg=220 ctermbg=252 cterm=NONE guifg=#ffd700 guibg=#d0d0d0 gui=NONE
+hi DiffChange ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
+hi DiffDelete ctermfg=161 ctermbg=252 cterm=NONE guifg=#d7005f guibg=#d0d0d0 gui=NONE
 
 "  Line
 hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
-" TODO change this to 135 af5fff
-hi StatusLineNC ctermfg=135 ctermbg=141 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
-hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
-hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
-hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
-hi CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#af8700 guibg=#303030 gui=NONE
-hi CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
+hi StatusLineNC ctermfg=236 ctermbg=135 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
+hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
+hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
+hi ColorLineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
+hi CursorLineNr ctermfg=136 ctermbg=252 cterm=NONE guifg=#af8700 guibg=#d0d0d0 gui=NONE
+hi CursorColumn ctermfg=237 ctermbg=254 cterm=NONE guifg=#303030 guibg=#e4e4e4 gui=NONE
 
 "  Select
-hi Visual ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gui=NONE
-hi SignColumn ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi Visual ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
+hi SignColumn ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
 
@@ -142,22 +136,20 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 
 
 "  Folded and Column
-hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 gui=NONE
-" TODO change this to 135 af5fff
-hi FoldColumn ctermfg=135 ctermbg=237 cterm=NONE guifg=#af5fff guibg=#383838 gui=NONE
-hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
-hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
+hi Folded ctermfg=236 ctermbg=240 cterm=NONE guifg=#303030 guibg=#6c6c6c gui=NONE
+hi FoldColumn ctermfg=135 ctermbg=252 cterm=NONE guifg=#af5fff guibg=#d0d0d0 gui=NONE
+hi ColorColumn ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
+hi VertSplit ctermfg=236 ctermbg=252 cterm=NONE guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
 
 "  Tab
 hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
-hi TabLine ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
-hi TabLineFill ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
-hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
+hi TabLine ctermfg=245 ctermbg=252 cterm=NONE guifg=#8a8a8a guibg=#d0d0d0 gui=NONE
+hi TabLineFill ctermfg=236 ctermbg=252 cterm=NONE guifg=#303030 guibg=#d0d0d0 gui=NONE
+hi TabLineSel ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
 
 "  Menu
-" TODO change this to 093 8700ff
-hi PmenuSel ctermfg=093 ctermbg=234 cterm=NONE guifg=#8700ff guibg=#1c1c1c gui=NONE
-hi Pmenu ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
+hi PmenuSel ctermfg=093 ctermbg=245 cterm=NONE guifg=#8700ff guibg=#8a8a8a gui=NONE
+hi Pmenu ctermfg=236 ctermbg=249 cterm=NONE guifg=#303030 guibg=#b2b2b2 gui=NONE
 
 "  Link
 hi link gitcommitSummary String
@@ -170,9 +162,7 @@ hi link CocCodeLens Comment
 " # Markdown
 hi markdownHeadingDelimiter ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 " # HTML
-" TODO change this to 135 af5fff
 hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 " # Javascript React (jsx)
-" TODO change this to 135 af5fff
 hi jsxString ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 "}}}
