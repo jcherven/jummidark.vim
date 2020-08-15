@@ -38,31 +38,31 @@ hi Normal ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NON
 
 " Named Color Assignments {{{
 " TODO change this to 135 af5fff
-" #af87ff 141 highPurple
-hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Structure ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Operator ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+" #af5fff 135 highPurple
+hi Keyword ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi Character ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi StorageClass ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi Structure ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi Operator ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 " TODO change this to 093 8700ff
-" #af5fff 135 lowPurple
-hi Type ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
-hi Directory ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
-hi Tag ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
-hi String ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+" #8700ff 093 lowPurple
+hi Type ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi Directory ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi Tag ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi String ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 
 " TODO change this to 044 00d7d7
-" #00ffaf 049 highGreen
+" #00d7d7 044 highGreen
 "
 " TODO change this to 030 008787
-" #00d7d7 044 lowGreen
-hi Define ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
-hi PreProc ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
-hi Label ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
-hi Conditional ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
-hi Statement ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
-hi Question ctermfg=44 ctermbg=NONE cterm=NONE guifg=#00d7d7 guibg=NONE gui=NONE
+" #008787 030 lowGreen
+hi Define ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi PreProc ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Label ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Conditional ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Statement ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Question ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
 
 " #d75f87 168 highRed  
 hi Debug ctermfg=168 ctermbg=NONE cterm=NONE guifg=#d75f87 guibg=NONE gui=NONE
@@ -100,7 +100,7 @@ hi NonText ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
 " Error/Warning
 hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
 " TODO change this to 044 00d7d7
-hi WarningMsg ctermfg=000 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00ffaf gui=NONE
+hi WarningMsg ctermfg=044 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00d7d7 gui=NONE
 
 " Search Highlight
 hi Search ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
@@ -111,7 +111,7 @@ hi SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626
 
 "  Diff
 " TODO change this to 030 008787
-hi DiffAdd ctermfg=044 ctermbg=235 cterm=NONE guifg=#00d7d7 guibg=#262626 gui=NONE
+hi DiffAdd ctermfg=030 ctermbg=235 cterm=NONE guifg=#008787 guibg=#262626 gui=NONE
 hi DiffText ctermfg=220 ctermbg=236 cterm=NONE guifg=#ffd700 guibg=#303030 gui=NONE
 hi DiffChange ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
 hi DiffDelete ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 gui=NONE
@@ -119,7 +119,7 @@ hi DiffDelete ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 gui
 "  Line
 hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
 " TODO change this to 135 af5fff
-hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#303030 guibg=#af87ff gui=NONE
+hi StatusLineNC ctermfg=135 ctermbg=141 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
@@ -144,7 +144,7 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 "  Folded and Column
 hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 gui=NONE
 " TODO change this to 135 af5fff
-hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#af87ff guibg=#383838 gui=NONE
+hi FoldColumn ctermfg=135 ctermbg=237 cterm=NONE guifg=#af5fff guibg=#383838 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
 
@@ -156,7 +156,7 @@ hi TabLineSel ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui
 
 "  Menu
 " TODO change this to 093 8700ff
-hi PmenuSel ctermfg=135 ctermbg=234 cterm=NONE guifg=#af5fff guibg=#1c1c1c gui=NONE
+hi PmenuSel ctermfg=093 ctermbg=234 cterm=NONE guifg=#8700ff guibg=#1c1c1c gui=NONE
 hi Pmenu ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
 
 "  Link
@@ -171,8 +171,8 @@ hi link CocCodeLens Comment
 hi markdownHeadingDelimiter ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 " # HTML
 " TODO change this to 135 af5fff
-hi htmlArg ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+hi htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 " # Javascript React (jsx)
 " TODO change this to 135 af5fff
-hi jsxString ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+hi jsxString ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 "}}}
