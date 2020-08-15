@@ -142,7 +142,7 @@ hi ColorColumn ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=
 hi VertSplit ctermfg=236 ctermbg=252 cterm=NONE guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
 
 "  Tab
-hi Title ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
+hi Title ctermfg=161 ctermbg=NONE cterm=bold guifg=#d7005f guibg=NONE gui=bold
 hi TabLine ctermfg=245 ctermbg=252 cterm=NONE guifg=#8a8a8a guibg=#d0d0d0 gui=NONE
 hi TabLineFill ctermfg=236 ctermbg=252 cterm=NONE guifg=#303030 guibg=#d0d0d0 gui=NONE
 hi TabLineSel ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
