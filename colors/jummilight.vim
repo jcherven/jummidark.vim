@@ -26,8 +26,8 @@ let g:colors_name = "jummilight"
 "|  234 | #1c1c1c   | lowGray3     |              ||  234 | #1c1c1c   | lowGray3     | 0 black
 "|  232 | #080808   | Background   |              ||  232 | #080808   | Background   |
 "|  135 | #af5fff   | highPurple   |              ||  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
-"|  093 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
-"|  044 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
+"|   93 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
+"|   44 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "|   30 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
 "|  168 | #d75f87   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
 "|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
@@ -46,20 +46,20 @@ hi Structure ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NO
 hi Operator ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 " #8700ff 093 lowPurple
-hi Type ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
-hi Directory ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
-hi Tag ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
-hi String ctermfg=093 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi Type ctermfg=93 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi Directory ctermfg=93 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi Tag ctermfg=93 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
+hi String ctermfg=93 ctermbg=NONE cterm=NONE guifg=#8700ff guibg=NONE gui=NONE
 
 " #00d7d7 044 highGreen
 "
 " #008787 030 lowGreen
-hi Define ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
-hi PreProc ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
-hi Label ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
-hi Conditional ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
-hi Statement ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
-hi Question ctermfg=030 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Define ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi PreProc ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Label ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Conditional ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Statement ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
+hi Question ctermfg=30 ctermbg=NONE cterm=NONE guifg=#008787 guibg=NONE gui=NONE
 
 " #d75f87 168 highRed  
 hi Debug ctermfg=168 ctermbg=NONE cterm=NONE guifg=#d75f87 guibg=NONE gui=NONE
@@ -76,16 +76,16 @@ hi Float ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
 hi Number ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
 hi Constant ctermfg=235 ctermbg=NONE cterm=NONE guifg=#262626 guibg=NONE gui=NONE
 
-" #8a8a8a 245 highGray3 
-hi Identifier ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
-hi Function ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
-hi Delimiter ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+" #4e4e4e 239 highGray3 
+hi Identifier ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
+hi Function ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
+hi Delimiter ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
 
 " #6c6c6c 242 middleGray1
 
 " #4e4e4e 239 middleGray2
-hi Comment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
-hi NonText ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+hi Comment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+hi NonText ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 
 " #3a3a3a 237 middleGray3 
 
@@ -95,15 +95,15 @@ hi NonText ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
 
 " Special Highlight Assignments {{{
 " Error/Warning
-hi ErrorMsg ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
-hi WarningMsg ctermfg=000 ctermbg=44 cterm=NONE guifg=#000000 guibg=#00d7d7 gui=NONE
+hi ErrorMsg ctermfg=232 ctermbg=168 cterm=NONE guifg=#080808 guibg=#d75f87 gui=NONE
+hi WarningMsg ctermfg=232 ctermbg=44 cterm=NONE guifg=#080808 guibg=#00d7d7 gui=NONE
 
 " Search Highlight
-hi Search ctermfg=NONE ctermbg=245 cterm=NONE guifg=NONE guibg=#8a8a8a gui=NONE
-hi IncSearch ctermfg=NONE ctermbg=242 cterm=NONE guifg=NONE guibg=#6c6c6c gui=NONE
+hi Search ctermfg=NONE ctermbg=232 cterm=NONE guifg=#080808 guibg=#8a8a8a gui=NONE
+hi IncSearch ctermfg=NONE ctermbg=232 cterm=NONE guifg=#080808 guibg=#6c6c6c gui=NONE
 
 " Special Comment
-hi SpecialComment ctermfg=242 ctermbg=NONE cterm=NONE guifg=#6c6c6c guibg=NONE gui=NONE
+hi SpecialComment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 
 "  Diff
 hi DiffAdd ctermfg=30 ctermbg=252 cterm=NONE guifg=#008787 guibg=#d0d0d0 gui=NONE
@@ -117,14 +117,14 @@ hi StatusLineNC ctermfg=236 ctermbg=135 cterm=NONE guifg=#303030 guibg=#af5fff g
 hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi ColorLineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
-hi CursorLineNr ctermfg=136 ctermbg=252 cterm=NONE guifg=#af8700 guibg=#d0d0d0 gui=NONE
-hi CursorColumn ctermfg=237 ctermbg=254 cterm=NONE guifg=#303030 guibg=#e4e4e4 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=231 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
+hi CursorLineNr ctermfg=136 ctermbg=231 cterm=NONE guifg=#af8700 guibg=#ffffff gui=NONE
+hi CursorColumn ctermfg=161 ctermbg=249 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
 
 "  Select
 hi Visual ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
 hi SignColumn ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
-hi SpecialKey ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
+hi SpecialKey ctermfg=161 ctermbg=237 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
 hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
 
 "  Underline
@@ -150,7 +150,7 @@ hi TabLineSel ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui
 "  Menu
 hi PmenuSel ctermfg=093 ctermbg=245 cterm=NONE guifg=#8700ff guibg=#8a8a8a gui=NONE
 hi Pmenu ctermfg=236 ctermbg=249 cterm=NONE guifg=#303030 guibg=#b2b2b2 gui=NONE
-
+highlight
 "  Link
 hi link gitcommitSummary String
 
