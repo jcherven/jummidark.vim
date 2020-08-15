@@ -118,7 +118,7 @@ hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi ColorLineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=231 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
-hi CursorLineNr ctermfg=136 ctermbg=231 cterm=NONE guifg=#af8700 guibg=#ffffff gui=NONE
+hi CursorLineNr ctermfg=136 ctermbg=252 cterm=NONE guifg=#af8700 guibg=#d0d0d0 gui=NONE
 hi CursorColumn ctermfg=161 ctermbg=249 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
 
 "  Select
