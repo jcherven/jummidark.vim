@@ -1,5 +1,5 @@
 " Vim color file {{{
-set background=dark
+set background=light
 highlight clear
 
 if exists("syntax_on")
@@ -7,10 +7,10 @@ if exists("syntax_on")
 endif
 
 set t_Co=256
-let g:colors_name = "jummidark"
+let g:colors_name = "jummilight"
 "}}}
 
-"| LIGHT                           |              || DARK
+"|LIGHT                                           |DARK
 "| 256  | GUI hex   | Highlight    |              || 256  | GUI hex   | Highlight    |Jummidark
 "| value| value     | Name         |              || value| value     | Name         |Term NR-16
 "|---------------------------------| -----------------------------------------------------
@@ -28,8 +28,8 @@ let g:colors_name = "jummidark"
 "|  093 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "|  044 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "|  030 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
-"|  168 | #d75f87   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
-"|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
+"|  161 | #d7005f   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
+"|  168 | #d75f87   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
 "|  220 | #ffd700   | Diff Change  |              ||  220 | #ffd700   | Diff Change  |
 "|  136 | #af8700   | Cursor       |              ||  136 | #af8700   | Cursor       | cursor
 
