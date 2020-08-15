@@ -136,7 +136,7 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 
 
 "  Folded and Column
-hi Folded ctermfg=236 ctermbg=240 cterm=NONE guifg=#303030 guibg=#6c6c6c gui=NONE
+hi Folded ctermfg=236 ctermbg=245 cterm=NONE guifg=#303030 guibg=#8a8a8a gui=NONE
 hi FoldColumn ctermfg=135 ctermbg=252 cterm=NONE guifg=#af5fff guibg=#d0d0d0 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi VertSplit ctermfg=236 ctermbg=252 cterm=NONE guifg=#d0d0d0 guibg=#d0d0d0 gui=NONE
