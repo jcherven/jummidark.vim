@@ -114,7 +114,7 @@ hi DiffChange ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=N
 hi DiffDelete ctermfg=161 ctermbg=252 cterm=NONE guifg=#d7005f guibg=#d0d0d0 gui=NONE
 
 "  Line
-hi StatusLine ctermfg=232 ctermbg=202 cterm=bold guifg=#080808 guibg=#ff5f00 gui=bold
+hi StatusLine ctermfg=231 ctermbg=202 cterm=bold guifg=#ffffff guibg=#ff5f00 gui=bold
 hi StatusLineNC ctermfg=236 ctermbg=135 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
@@ -127,7 +127,7 @@ hi CursorColumn ctermfg=161 ctermbg=249 cterm=NONE guifg=#d7005f guibg=#b2b2b2 g
 hi Visual ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
 hi SignColumn ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi SpecialKey ctermfg=161 ctermbg=237 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
-hi Cursor ctermfg=232 ctermbg=202 cterm=NONE guifg=#080808 guibg=#ff5f00 gui=NONE
+hi Cursor ctermfg=231 ctermbg=202 cterm=NONE guifg=#ffffff guibg=#ff5f00 gui=NONE
 
 "  Underline
 hi clear SpellBad
