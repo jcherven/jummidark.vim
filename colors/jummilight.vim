@@ -115,7 +115,7 @@ hi DiffDelete ctermfg=161 ctermbg=252 cterm=NONE guifg=#d7005f guibg=#d0d0d0 gui
 
 "  Line
 hi StatusLine ctermfg=231 ctermbg=165 cterm=bold guifg=#ffffff guibg=#d700ff gui=bold
-hi StatusLineNC ctermfg=236 ctermbg=135 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
+hi StatusLineNC ctermfg=231 ctermbg=245 cterm=NONE guifg=#ffffff guibg=#8a8a8a gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi ColorLineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
