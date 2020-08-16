@@ -99,8 +99,8 @@ hi ErrorMsg ctermfg=232 ctermbg=168 cterm=NONE guifg=#080808 guibg=#d75f87 gui=N
 hi WarningMsg ctermfg=232 ctermbg=44 cterm=NONE guifg=#080808 guibg=#00d7d7 gui=NONE
 
 " Search Highlight
-hi Search ctermfg=161 ctermbg=245 cterm=NONE guifg=#d7005f guibg=#8a8a8a gui=NONE
-hi IncSearch ctermfg=44 ctermbg=245 cterm=NONE guifg=#00d7d7 guibg=#8a8a8a gui=NONE
+hi Search ctermfg=135 ctermbg=245 cterm=NONE guifg=#af5fff guibg=#8a8a8a gui=NONE
+hi IncSearch ctermfg=161 ctermbg=245 cterm=NONE guifg=#d7005f guibg=#8a8a8a gui=NONE
 
 " Special Comment
 hi SpecialComment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
