@@ -100,7 +100,7 @@ hi WarningMsg ctermfg=232 ctermbg=44 cterm=NONE guifg=#080808 guibg=#00d7d7 gui=
 
 " Search Highlight
 hi Search ctermfg=231 ctermbg=245 cterm=NONE guifg=#ffffff guibg=#8a8a8a gui=NONE
-hi IncSearch ctermfg=168 ctermbg=245 cterm=NONE guifg=#d75f87 guibg=#8a8a8a gui=NONE
+hi IncSearch ctermfg=236 ctermbg=245 cterm=NONE guifg=#303030 guibg=#8a8a8a gui=NONE
 
 " Special Comment
 hi SpecialComment ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
