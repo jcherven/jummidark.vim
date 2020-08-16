@@ -150,8 +150,8 @@ hi TabLineFill ctermfg=236 ctermbg=252 cterm=NONE guifg=#303030 guibg=#d0d0d0 gu
 hi TabLineSel ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
 
 "  Menu
-hi PmenuSel ctermfg=093 ctermbg=245 cterm=NONE guifg=#8700ff guibg=#8a8a8a gui=NONE
-hi Pmenu ctermfg=236 ctermbg=249 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
+hi PmenuSel ctermfg=231 ctermbg=245 cterm=NONE guifg=#ffffff guibg=#8a8a8a gui=NONE
+hi Pmenu ctermfg=NONE ctermbg=231 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
 highlight
 "  Link
 hi link gitcommitSummary String
