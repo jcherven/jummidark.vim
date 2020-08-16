@@ -32,7 +32,8 @@ let g:colors_name = "jummilight"
 "|  168 | #d75f87   | highRed      |              ||  168 | #d75f87   | highRed      | 12 Red
 "|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
 "|  220 | #ffd700   | Diff Change  |              ||  220 | #ffd700   | Diff Change  |
-"|  136 | #af8700   | Cursor       |              ||  136 | #af8700   | Cursor       | cursor
+"|  215 | #ffaf5f   | Cursor       | cursor       ||  136 | #af8700   | Cursor       | cursor
+"
 
 " Normal text and Vim background Assignment
 hi Normal ctermfg=235 ctermbg=254 cterm=NONE guifg=#262626 guibg=#e4e4e4 gui=NONE
@@ -112,20 +113,20 @@ hi DiffChange ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=N
 hi DiffDelete ctermfg=161 ctermbg=252 cterm=NONE guifg=#d7005f guibg=#d0d0d0 gui=NONE
 
 "  Line
-hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
+hi StatusLine ctermfg=232 ctermbg=215 cterm=bold guifg=#080808 guibg=#ffaf5f gui=bold
 hi StatusLineNC ctermfg=236 ctermbg=135 cterm=NONE guifg=#303030 guibg=#af5fff gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=252 cterm=NONE guifg=NONE guibg=#d0d0d0 gui=NONE
 hi LineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi ColorLineNr ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi CursorLine ctermfg=NONE ctermbg=231 cterm=NONE guifg=NONE guibg=#ffffff gui=NONE
-hi CursorLineNr ctermfg=136 ctermbg=252 cterm=NONE guifg=#af8700 guibg=#d0d0d0 gui=NONE
+hi CursorLineNr ctermfg=215 ctermbg=252 cterm=NONE guifg=#ffaf5f guibg=#d0d0d0 gui=NONE
 hi CursorColumn ctermfg=161 ctermbg=249 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
 
 "  Select
 hi Visual ctermfg=NONE ctermbg=249 cterm=NONE guifg=NONE guibg=#b2b2b2 gui=NONE
 hi SignColumn ctermfg=242 ctermbg=252 cterm=NONE guifg=#6c6c6c guibg=#d0d0d0 gui=NONE
 hi SpecialKey ctermfg=161 ctermbg=237 cterm=NONE guifg=#d7005f guibg=#b2b2b2 gui=NONE
-hi Cursor ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
+hi Cursor ctermfg=232 ctermbg=215 cterm=NONE guifg=#080808 guibg=#ffaf5f gui=NONE
 
 "  Underline
 hi clear SpellBad
