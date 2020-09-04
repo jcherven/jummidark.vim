@@ -23,7 +23,7 @@ let g:colors_name = "jummidark"
 "  235 | #262626   | lowGray2     | background
 "  234 | #1c1c1c   | lowGray3     | 0 black
 "  232 | #080808   | Background   |
-"  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
+"  147 | #afafff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
 "  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
@@ -36,12 +36,12 @@ let g:colors_name = "jummidark"
 hi Normal ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
 
 " Named Color Assignments {{{
-" #af87ff 141 highPurple
-hi Keyword ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Character ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi StorageClass ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Structure ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
-hi Operator ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+" #afafff 147 highPurple
+hi Keyword ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi Character ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi StorageClass ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi Structure ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi Operator ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 
 " #af5fff 135 lowPurple
 hi Type ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
@@ -111,7 +111,7 @@ hi DiffDelete ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 gui
 
 "  Line
 hi StatusLine ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
-hi StatusLineNC ctermfg=236 ctermbg=141 cterm=NONE guifg=#303030 guibg=#af87ff gui=NONE
+hi StatusLineNC ctermfg=236 ctermbg=147 cterm=NONE guifg=#303030 guibg=#afafff gui=NONE
 hi MsgArea ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi LineNr ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
 hi ColorLineNr ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
@@ -135,7 +135,7 @@ hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gu
 
 "  Folded and Column
 hi Folded ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 gui=NONE
-hi FoldColumn ctermfg=141 ctermbg=237 cterm=NONE guifg=#af87ff guibg=#383838 gui=NONE
+hi FoldColumn ctermfg=147 ctermbg=237 cterm=NONE guifg=#afafff guibg=#383838 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi VertSplit ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
 
@@ -160,7 +160,7 @@ hi link CocCodeLens Comment
 " # Markdown
 hi markdownHeadingDelimiter ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 " # HTML
-hi htmlArg ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+hi htmlArg ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 " # Javascript React (jsx)
-hi jsxString ctermfg=141 ctermbg=NONE cterm=NONE guifg=#af87ff guibg=NONE gui=NONE
+hi jsxString ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 "}}}
