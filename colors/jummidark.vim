@@ -23,8 +23,7 @@ let g:colors_name = "jummidark"
 "  235 | #262626   | lowGray2     | background
 "  234 | #1c1c1c   | lowGray3     | 0 black
 "  232 | #080808   | Background   |
-"  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
-"  147   #afafff
+"  147 | #afafff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
 "  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
