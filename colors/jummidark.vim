@@ -36,6 +36,34 @@ let g:colors_name = "jummidark"
 hi Normal       ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
 
 " Named Color Assignments {{{
+"
+" #e4e4e4 254 highGray1
+hi Boolean      ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
+hi Float        ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
+hi Number       ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
+hi Constant     ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
+
+" #b2b2b2 249 highGray2
+
+" #8a8a8a 245 highGray3 
+hi Identifier   ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+hi Function     ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+hi Delimiter    ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+
+" #6c6c6c 242 middleGray1
+
+" #4e4e4e 239 middleGray2
+hi Comment      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
+hi NonText      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
+
+" #3a3a3a 237 middleGray3 
+
+" #303030 236 lowGray1
+
+" #262626 235 lowGray2
+
+" #1c1c1c 234 lowGray3
+
 " #afafff 147 highPurple
 hi Keyword      ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi Character    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
@@ -67,27 +95,6 @@ hi Special      ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui
 hi SpecialChar  ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 hi MatchParen   ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 hi Todo         ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
-
-" #e4e4e4 254 highGray1
-hi Boolean      ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Float        ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Number       ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-hi Constant     ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gui=NONE
-
-" #8a8a8a 245 highGray3 
-hi Identifier   ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
-hi Function     ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
-hi Delimiter    ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
-
-" #6c6c6c 242 middleGray1
-
-" #4e4e4e 239 middleGray2
-hi Comment      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
-hi NonText      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gui=NONE
-
-" #3a3a3a 237 middleGray3 
-
-" #1c1c1c 234 lowGray3
 
 " }}}
 
