@@ -28,6 +28,7 @@ This fork adds:
 - Visually distinguished message/cmd area background
 - Language specific changes:
   - Highlighting of HTML and JSX attribute values are adjusted for differentiation
+- A no-background scheme (jummidark-nobg) for use with custom terminal backgrounds (transparency, custom color, etc)
 
 ## Installation
 
@@ -47,6 +48,8 @@ colorscheme jummidark
 ```
 
 There's also a somewhat incomplete light theme included called `jummilight`. It's not as polished as the dark one, and might never see any more updates. If it's a good starting point for something you'd like, consider forking.
+
+Included is a separate `jummidark-nobg` which sets the `Normal` background to `NONE`. If you're using a custom terminal background that uses transparency or a color that you prefer, setting this one as `colorscheme` will let that work properly. 
 
 ## jummidark colors everywhere
 
