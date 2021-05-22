@@ -20,9 +20,10 @@ This fork adds:
 - Visual mode selection colors
 - Legible Pmenus in NeoVim
 - Visually distinguished message/cmd area background
+- A no-background scheme (jummidark-nobg) for users of custom terminal themes that have window transparency or custom color.
+- An experimental light theme with adjusted colors.
 - Language specific changes:
   - Highlighting of HTML and JSX attribute values are adjusted for differentiation
-- A no-background scheme (jummidark-nobg) for use with custom terminal backgrounds (transparency, custom color, etc)
 
 ## Installation
 
