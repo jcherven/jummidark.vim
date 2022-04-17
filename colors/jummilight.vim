@@ -15,7 +15,7 @@ let g:colors_name = "jummilight"
 "| value| value     | Name         |              || value| value     | Name         |Term NR-16
 "|---------------------------------| -----------------------------------------------------
 "|  254 | #e4e4e4   | highGray1    | background   ||  254 | #e4e4e4   | highGray1    | 7 LightGray, foreground
-"|  252 | #d0d0d0   | highGray2    |               |  252 | #d0d0d0   | highGray2    |
+"|  252 | #d0d0d0   | highGray2    |              ||  252 | #d0d0d0   | highGray2    |
 "|  249 | #b2b2b2   | highGray3    |              ||  249 | #b2b2b2   | highGray3    |
 "|  245 | #8a8a8a   | highGray4    | selection    ||  245 | #8a8a8a   | highGray4    | 15 White
 "|  242 | #6c6c6c   | middleGray1  |              ||  242 | #6c6c6c   | middleGray1  |
@@ -167,3 +167,18 @@ hi! htmlArg ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NON
 " # Javascript React (jsx)
 hi! jsxString ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 "}}}
+
+" Inactive/Active Window Indication, conditional for neovim {{{
+hi! InactiveWindow ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#3a3a3a gui=NONE
+
+if has('nvim')
+  augroup WindowManagement
+    autocmd!
+    autocmd WinEnter * call Handle_Win_Enter()
+  augroup END
+endif
+
+function! Handle_Win_Enter()
+  setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+endfunction
+"  }}}
