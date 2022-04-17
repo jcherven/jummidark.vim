@@ -8,7 +8,7 @@ Shown here: NeoVim with coc.nvim, [taboo.vim](https://github.com/gcmt/taboo.vim)
 
 ## About jummidark.vim
 
-This was designed with the idea that syntax colors are very helpful but more than three or so unique colors feels chaotic.
+There are a lot of considered design principles in jummidark but I won't go into it because it's just a colorscheme. I think the most important things are that this only uses terminal-safe colors, and there aren't too many of them.
 
 ![Screenshot](https://raw.githubusercontent.com/jcherven/jummidark.vim/master/screenshots/specimen-colorchart.png)
 
@@ -42,7 +42,7 @@ syntax enable
 colorscheme jummidark
 ```
 
-There's also a somewhat incomplete light theme included called `jummilight`. It's not as polished as the dark one, and might never see any more updates. If it's a good starting point for something you'd like, consider forking.
+There's also a WIP light theme included called `jummilight`. It's not as polished as the dark one. I poke at it every few months when I switch to light themes for no reason.
 
 Included is a separate `jummidark-nobg` which sets the `Normal` background to `NONE`. If you're using a custom terminal background that uses transparency or a color that you prefer, setting this one as `colorscheme` will let that work properly.
 
