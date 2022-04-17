@@ -175,3 +175,19 @@ hi! htmlArg      ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gu
 " # Javascript React (jsx)
 hi! jsxString    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 "}}}
+
+
+" Inactive/Active Window Indication, conditional for neovim {{{
+hi! InactiveWindow ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#3a3a3a gui=NONE
+
+if has('nvim')
+  augroup WindowManagement
+    autocmd!
+    autocmd WinEnter * call Handle_Win_Enter()
+  augroup END
+endif
+
+function! Handle_Win_Enter()
+  setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
+endfunction
+"  }}}
