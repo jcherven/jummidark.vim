@@ -154,7 +154,7 @@ hi! VertSplit    ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 
 hi! Title        ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi! TabLine      ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#383838 gui=NONE
 hi! TabLineFill  ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 gui=NONE
-hi! TabLineSel   ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
+hi! TabLineSel   ctermfg=254 ctermbg=235 cterm=bold guifg=#e4e4e4 guibg=#262626 gui=bold
 
 "  Menu
 hi! PmenuSel     ctermfg=135 ctermbg=234 cterm=NONE guifg=#af5fff guibg=#1c1c1c gui=NONE
