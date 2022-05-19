@@ -135,6 +135,7 @@ hi! Visual       ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gu
 hi! SignColumn   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! SpecialKey   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! Cursor       ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
+hi! lCursor      ctermfg=232 ctermbg=NONE cterm=NONE guifg=#080808 guibg=NONE gui=NONE
 
 "  Underline
 hi! clear SpellBad
@@ -157,7 +158,7 @@ hi! TabLineFill  ctermfg=15 ctermbg=236 cterm=NONE guifg=#FFFFFF guibg=#303030 g
 hi! TabLineSel   ctermfg=254 ctermbg=235 cterm=bold guifg=#e4e4e4 guibg=#262626 gui=bold
 
 "  Menu
-hi! PmenuSel     ctermfg=135 ctermbg=234 cterm=NONE guifg=#af5fff guibg=#1c1c1c gui=NONE
+hi! PmenuSel     ctermfg=135 ctermbg=234 cterm=bold guifg=#af5fff guibg=#1c1c1c gui=bold
 hi! Pmenu        ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
 
 "  Link
