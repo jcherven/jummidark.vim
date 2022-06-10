@@ -25,7 +25,7 @@ let g:colors_name = "jummidark-nobg"
 "|  235 | #262626   | lowGray2     | foreground   ||  235 | #262626   | lowGray2     | background
 "|  234 | #1c1c1c   | lowGray3     |              ||  234 | #1c1c1c   | lowGray3     | 0 black
 "|  232 | #080808   | Background   |              ||  232 | #080808   | Background   |
-"|  135 | #af5fff   | highPurple   |              ||  141 | #af87ff   | highPurple   | 9 Blue, 5 DarkMagenta, 13 Magenta 
+"|  135 | #af5fff   | middlePurple |              ||  141 | #af87ff   | middlePurple | 9 Blue, 5 DarkMagenta, 13 Magenta 
 "|   93 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "|   44 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
 "|   30 | #008787   | lowGreen     |              ||  044 | #00d7d7   | lowGreen     | 2 Green, 10 DarkGreen, 3 DarkCyan, 11 Cyan
@@ -33,6 +33,19 @@ let g:colors_name = "jummidark-nobg"
 "|  161 | #d7005f   | lowRed       |              ||  161 | #d7005f   | lowRed       | 4 DarkRed
 "|  220 | #ffd700   | Diff Change  |              ||  220 | #ffd700   | Diff Change  |
 "|  165 | #d700ff   | Cursor       | cursor       ||  136 | #af8700   | Cursor       | cursor
+"---------------------------------------------------------------------------------------------
+"|EXPERIMENTAL COLORS                             |EXPERIMENTAL COLORS
+"---------------------------------------------------------------------------------------------
+"|  189 | #cfc8f4   | highPurple
+"|  140 | #a29acb   | highPurple
+"|  176 | #cb8dd7   | highPurple
+"|    9 | #ff0000   | 
+"|   10 | #00ff00   | 
+"|  205 | #ec57b4   | 
+"|   37 | #25b7b8   | 
+"|  110 | #82b4e3   | 
+"|  189 | #cfc8f4   | 
+"|  175 | #db90a7   | 
 "
 "
 
