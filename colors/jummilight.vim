@@ -182,3 +182,5 @@ function! Handle_Win_Enter()
   setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
 endfunction
 "  }}}
+
+" ex: set foldmethod=marker:

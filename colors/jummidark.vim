@@ -81,7 +81,7 @@ hi! NonText      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gu
 
 " #1c1c1c 234 lowGray3
 
-" #afafff 147 middlePurple
+" #afafff 147 highPurple
 hi! Keyword      ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi! Character    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi! StorageClass ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
@@ -140,7 +140,7 @@ hi! MsgArea      ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gu
 hi! LineNr       ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
 hi! ColorLineNr  ctermfg=15 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#303030 gui=bold
 hi! CursorLine   ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
-hi! CursorLineNr ctermfg=136 ctermbg=236 cterm=NONE guifg=#af8700 guibg=#303030 gui=NONE
+hi! CursorLineNr ctermfg=136 ctermbg=236 cterm=bold guifg=#af8700 guibg=#303030 gui=bold
 hi! CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
 
 "  Select
@@ -148,6 +148,7 @@ hi! Visual       ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gu
 hi! SignColumn   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! SpecialKey   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! Cursor       ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
+hi! lCursor      ctermfg=232 ctermbg=NONE cterm=NONE guifg=#080808 guibg=NONE gui=NONE
 
 "  Underline
 hi! clear SpellBad
