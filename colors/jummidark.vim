@@ -81,7 +81,7 @@ hi! NonText      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gu
 
 " #1c1c1c 234 lowGray3
 
-" #afafff 147 middlePurple
+" #afafff 147 highPurple
 hi! Keyword      ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi! Character    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi! StorageClass ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
@@ -205,4 +205,4 @@ function! Handle_Win_Enter()
 endfunction
 "  }}}
 
-# ex: set foldmethod=marker:
+" ex: set foldmethod=marker:
