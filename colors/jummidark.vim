@@ -63,7 +63,7 @@ hi! Constant     ctermfg=254 ctermbg=NONE cterm=NONE guifg=#e4e4e4 guibg=NONE gu
 " #b2b2b2 249 highGray2
 
 " #8a8a8a 245 highGray3 
-hi! Identifier   ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+hi! Identifier   ctermfg=245 ctermbg=NONE cterm=bold guifg=#8a8a8a guibg=NONE gui=bold
 hi! Function     ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 hi! Delimiter    ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 
@@ -84,14 +84,14 @@ hi! NonText      ctermfg=239 ctermbg=NONE cterm=NONE guifg=#4e4e4e guibg=NONE gu
 " #afafff 147 highPurple
 hi! Keyword      ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
 hi! Character    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
-hi! StorageClass ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi! StorageClass ctermfg=147 ctermbg=NONE cterm=bold guifg=#afafff guibg=NONE gui=bold
 hi! Structure    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
-hi! Operator     ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gui=NONE
+hi! Operator     ctermfg=147 ctermbg=NONE cterm=bold guifg=#afafff guibg=NONE gui=bold
 
 " #af5fff 135 lowPurple
-hi! Type         ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi! Type         ctermfg=135 ctermbg=NONE cterm=bold guifg=#af5fff guibg=NONE gui=bold
 hi! Directory    ctermfg=135 ctermbg=NONE cterm=bold guifg=#af5fff guibg=NONE gui=bold
-hi! Tag          ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
+hi! Tag          ctermfg=135 ctermbg=NONE cterm=bold guifg=#af5fff guibg=NONE gui=bold
 hi! String       ctermfg=135 ctermbg=NONE cterm=NONE guifg=#af5fff guibg=NONE gui=NONE
 
 " #00ffaf 049 highGreen
@@ -137,10 +137,10 @@ hi! DiffDelete   ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 
 hi! StatusLine   ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
 hi! StatusLineNC ctermfg=232 ctermbg=242 cterm=NONE guifg=#080808 guibg=#6c6c6c gui=NONE
 hi! MsgArea      ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
-hi! LineNr       ctermfg=245 ctermbg=236 cterm=NONE guifg=#8a8a8a guibg=#303030 gui=NONE
-hi! ColorLineNr  ctermfg=15 ctermbg=236 cterm=bold guifg=#FFFFFF guibg=#303030 gui=bold
+hi! LineNr       ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
+hi! ColorLineNr  ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi! CursorLine   ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
-hi! CursorLineNr ctermfg=136 ctermbg=236 cterm=bold guifg=#af8700 guibg=#303030 gui=bold
+hi! CursorLineNr ctermfg=136 ctermbg=234 cterm=bold guifg=#af8700 guibg=#1c1c1c gui=bold
 hi! CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
 
 "  Select
