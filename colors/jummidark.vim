@@ -25,6 +25,7 @@ let g:colors_name = "jummidark"
 "|  235 | #262626   | lowGray2     | foreground   ||  235 | #262626   | lowGray2     | background
 "|  234 | #1c1c1c   | lowGray3     |              ||  234 | #1c1c1c   | lowGray3     | 0 black
 "|  232 | #080808   | Background   |              ||  232 | #080808   | Background   |
+"|   16 | #000000   | black        |              ||   16 | #000000   | black        | 0 black
 "|  135 | #af5fff   | middlePurple |              ||  141 | #af87ff   | middlePurple | 9 Blue, 5 DarkMagenta, 13 Magenta 
 "|   93 | #8700ff   | lowPurple    |              ||  135 | #af5fff   | lowPurple    | 1 DarkBlue
 "|   44 | #00d7d7   | highGreen    |              ||  049 | #00ffaf   | highGreen    | 6 Brown, 14 Yellow
@@ -50,7 +51,7 @@ let g:colors_name = "jummidark"
 "
 
 " Normal text and Vim background Assignment
-hi! Normal       ctermfg=254 ctermbg=235 cterm=NONE guifg=#e4e4e4 guibg=#262626 gui=NONE
+hi! Normal       ctermfg=254 ctermbg=234 cterm=NONE guifg=#e4e4e4 guibg=#1c1c1c gui=NONE
 
 " Named Color Assignments {{{
 "
@@ -139,8 +140,8 @@ hi! StatusLineNC ctermfg=232 ctermbg=242 cterm=NONE guifg=#080808 guibg=#6c6c6c 
 hi! MsgArea      ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi! LineNr       ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 hi! ColorLineNr  ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
-hi! CursorLine   ctermfg=NONE ctermbg=234 cterm=NONE guifg=NONE guibg=#1c1c1c gui=NONE
-hi! CursorLineNr ctermfg=136 ctermbg=234 cterm=bold guifg=#af8700 guibg=#1c1c1c gui=bold
+hi! CursorLine   ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
+hi! CursorLineNr ctermfg=136 ctermbg=16 cterm=bold guifg=#af8700 guibg=#000000 gui=bold
 hi! CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
 
 "  Select
