@@ -14,7 +14,8 @@ There are a lot of considered design principles in jummidark but I won't go into
 
 This fork adds:
 
-- If using neovim, active window is indicated by background color
+- ~~If using neovim, active window is indicated by background color~~
+  - Currently this is commented out because I'm not proud of how it's done and it's been brought to my attention that people are actually using this thing
 - Native statusbar colors for users who don't use plugins like Airline, Powerline, etc.
 - Tabline, tab, and border colors that make split boundaries more clear
 - Cursor, cursorline, and number column colors
