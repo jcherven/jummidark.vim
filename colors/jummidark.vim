@@ -192,7 +192,9 @@ hi! jsxString    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gu
 "}}}
 
 " Inactive/Active Window Indication, conditional for neovim {{{
-" hi! InactiveWindow ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#3a3a3a gui=NONE
+
+" hi! InactiveWindow ctermfg=245 ctermbg=237 cterm=NONE guifg=#8a8a8a guibg=#3a3a3a gui=NONE
+
 "
 " if has('nvim')
 "   augroup WindowManagement
