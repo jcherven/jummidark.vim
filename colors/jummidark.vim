@@ -129,10 +129,10 @@ hi! IncSearch    ctermfg=NONE ctermbg=237 cterm=bold guifg=NONE guibg=#3a3a3a gu
 hi! SpecialComment ctermfg=242 ctermbg=235 cterm=NONE guifg=#6c6c6c guibg=#262626 gui=NONE
 
 "  Diff
-hi! DiffAdd      ctermfg=044 ctermbg=235 cterm=NONE guifg=#00d7d7 guibg=#262626 gui=NONE
-hi! DiffText     ctermfg=220 ctermbg=236 cterm=NONE guifg=#ffd700 guibg=#303030 gui=NONE
-hi! DiffChange   ctermfg=NONE ctermbg=237 cterm=NONE guifg=NONE guibg=#383838 gui=NONE
-hi! DiffDelete   ctermfg=161 ctermbg=235 cterm=NONE guifg=#d7005f guibg=#262626 gui=NONE
+hi! DiffAdd      ctermfg=049 ctermbg=NONE cterm=NONE guifg=#00ffaf guibg=NONE gui=NONE
+hi! DiffText     ctermfg=220 ctermbg=NONE cterm=NONE guifg=#ffd700 guibg=NONE gui=NONE
+hi! DiffChange   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi! DiffDelete   ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gui=NONE
 
 "  Line
 hi! StatusLine   ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
@@ -142,11 +142,12 @@ hi! LineNr       ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gu
 hi! ColorLineNr  ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi! CursorLine   ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
 hi! CursorLineNr ctermfg=136 ctermbg=16 cterm=bold guifg=#af8700 guibg=#000000 gui=bold
-hi! CursorColumn ctermfg=254 ctermbg=237 cterm=NONE guifg=#e4e4e4 guibg=#383838 gui=NONE
+hi! CursorLineSign ctermfg=NONE ctermbg=16 cterm=bold guifg=NONE guibg=#000000 gui=bold
+hi! CursorColumn ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
+hi! SignColumn   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
 
 "  Select
 hi! Visual       ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gui=NONE
-hi! SignColumn   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! SpecialKey   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! Cursor       ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
 hi! lCursor      ctermfg=232 ctermbg=NONE cterm=NONE guifg=#080808 guibg=NONE gui=NONE
@@ -164,6 +165,7 @@ hi! Folded       ctermfg=240 ctermbg=236 cterm=NONE guifg=#6c6c6c guibg=#303030 
 hi! FoldColumn   ctermfg=147 ctermbg=237 cterm=NONE guifg=#afafff guibg=#383838 gui=NONE
 hi! ColorColumn  ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 hi! VertSplit    ctermfg=236 ctermbg=236 cterm=NONE guifg=#303030 guibg=#303030 gui=NONE
+hi! CusrsorLineFold ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
 
 "  Tab
 hi! Title        ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
