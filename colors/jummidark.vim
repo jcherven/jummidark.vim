@@ -118,8 +118,10 @@ hi! Todo         ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gu
 
 " Special Highlight Assignments {{{
 " Error/Warning
+hi! Error     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
 hi! ErrorMsg     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
 hi! WarningMsg   ctermfg=000 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00ffaf gui=NONE
+hi! NvimInternalError     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
 
 " Search Highlight
 hi! Search       ctermfg=NONE ctermbg=237 cterm=bold guifg=NONE guibg=#3a3a3a gui=bold
@@ -176,6 +178,8 @@ hi! TabLineSel   ctermfg=254 ctermbg=235 cterm=bold guifg=#e4e4e4 guibg=#262626 
 "  Menu
 hi! PmenuSel     ctermfg=135 ctermbg=234 cterm=bold guifg=#af5fff guibg=#1c1c1c gui=bold
 hi! Pmenu        ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
+hi! PmenuThumb   ctermfg=Black ctermbg=254 cterm=NONE guifg=Black guibg=#e4e4e4 gui=NONE
+
 
 "  Link
 hi! link gitcommitSummary String
@@ -209,5 +213,12 @@ hi! jsxString    ctermfg=147 ctermbg=NONE cterm=NONE guifg=#afafff guibg=NONE gu
 "   setlocal winhighlight=Normal:ActiveWindow,NormalNC:InactiveWindow
 " endfunction
 "  }}}
+
+" CoC Highlight Groups
+hi! CocExplorerErrorColor_Internal ctermfg=254 ctermbg=234 cterm=NONE guifg=#e4e4e4 guibg=#1c1c1c gui=NONE 
+
+" Miscellaneous Problem colors
+hi! RedrawDebugClear ctermfg=Black ctermbg=Yellow cterm=NONE guifg=Black guibg=Yellow gui=NONE 
+
 
 " ex: set foldmethod=marker:
