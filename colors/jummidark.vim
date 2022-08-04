@@ -119,9 +119,15 @@ hi! Todo         ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gu
 " Special Highlight Assignments {{{
 " Error/Warning
 hi! Error     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
-hi! ErrorMsg     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
-hi! WarningMsg   ctermfg=000 ctermbg=049 cterm=NONE guifg=#000000 guibg=#00ffaf gui=NONE
-hi! NvimInternalError     ctermfg=000 ctermbg=168 cterm=NONE guifg=#000000 guibg=#d75f87 gui=NONE
+hi! link ErrorMsg Error
+hi! link WarningMsg Error
+hi! link NvimInternalError Error
+hi! link NvimInternalError Error
+hi! DiagnosticError     ctermfg=168 ctermbg=NONE cterm=NONE guifg=#d75f87 guibg=NONE gui=NONE
+hi! link CocErrorSign DiagnosticError
+hi! DiagnosticWarn     ctermfg=136 ctermbg=NONE cterm=NONE guifg=#af8700 guibg=NONE gui=NONE
+hi! link CocExplorerErrorColor_Internal Error
+hi! link CocExplorerCocErrorSignColor_Internal Error
 
 " Search Highlight
 hi! Search       ctermfg=NONE ctermbg=237 cterm=bold guifg=NONE guibg=#3a3a3a gui=bold
@@ -152,6 +158,7 @@ hi! SignColumn   ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=
 hi! Visual       ctermfg=NONE ctermbg=232 cterm=NONE guifg=NONE guibg=#080808 gui=NONE
 hi! SpecialKey   ctermfg=15 ctermbg=237 cterm=NONE guifg=#FFFFFF guibg=#383838 gui=NONE
 hi! Cursor       ctermfg=232 ctermbg=136 cterm=NONE guifg=#080808 guibg=#af8700 gui=NONE
+hi! link TermCursor Cursor
 hi! lCursor      ctermfg=232 ctermbg=NONE cterm=NONE guifg=#080808 guibg=NONE gui=NONE
 
 "  Underline
@@ -179,6 +186,7 @@ hi! TabLineSel   ctermfg=254 ctermbg=235 cterm=bold guifg=#e4e4e4 guibg=#262626 
 hi! PmenuSel     ctermfg=135 ctermbg=234 cterm=bold guifg=#af5fff guibg=#1c1c1c gui=bold
 hi! Pmenu        ctermfg=249 ctermbg=236 cterm=NONE guifg=#b2b2b2 guibg=#303030 gui=NONE
 hi! PmenuThumb   ctermfg=Black ctermbg=254 cterm=NONE guifg=Black guibg=#e4e4e4 gui=NONE
+hi! link COCMenuSel PmenuSel
 
 
 "  Link
