@@ -23,7 +23,7 @@ let g:colors_name = "jummidark"
 "|  237 | #3a3a3a   | middleGray3  |              ||  237 | #3a3a3a   | middleGray3  |
 "|  236 | #303030   | lowGray1     |              ||  236 | #303030   | lowGray1     |
 "|  235 | #262626   | lowGray2     | foreground   ||  235 | #262626   | lowGray2     | background
-"|  234 | #1c1c1c   | lowGray3     |              ||  234 | #1c1c1c   | lowGray3     | 0 black
+"|  234 | #1c1c1c   | lowGray3     |              ||  234 | #1c1c1c   | lowGray3     | 0 Black
 "|  232 | #080808   | Background   |              ||  232 | #080808   | Background   |
 "|   16 | #000000   | black        |              ||   16 | #000000   | black        | 0 black
 "|  135 | #af5fff   | middlePurple |              ||  141 | #af87ff   | middlePurple | 9 Blue, 5 DarkMagenta, 13 Magenta 
@@ -146,6 +146,7 @@ hi! DiffDelete   ctermfg=161 ctermbg=NONE cterm=NONE guifg=#d7005f guibg=NONE gu
 hi! StatusLine   ctermfg=232 ctermbg=136 cterm=bold guifg=#080808 guibg=#af8700 gui=bold
 hi! StatusLineNC ctermfg=232 ctermbg=242 cterm=NONE guifg=#080808 guibg=#6c6c6c gui=NONE
 hi! MsgArea      ctermfg=NONE ctermbg=236 cterm=NONE guifg=NONE guibg=#303030 gui=NONE
+hi! MoreMsg      ctermfg=049 ctermbg=NONE cterm=bold guifg=#00ffaf guibg=NONE gui=bold
 hi! LineNr       ctermfg=245 ctermbg=NONE cterm=NONE guifg=#8a8a8a guibg=NONE gui=NONE
 hi! ColorLineNr  ctermfg=15 ctermbg=NONE cterm=bold guifg=#FFFFFF guibg=NONE gui=bold
 hi! CursorLine   ctermfg=NONE ctermbg=16 cterm=NONE guifg=NONE guibg=#000000 gui=NONE
